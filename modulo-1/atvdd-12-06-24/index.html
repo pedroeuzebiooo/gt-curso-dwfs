@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pedro Euzebio" />
+    <meta
+      name="description"
+      content="Atividade do período 12/06/2024 do Curso de Desenvolvimento Web Full Stack do projeto Geração Tech"
+    />
+    <title>
+      Geração Tech | Curso de Desenvolvimento Web Full Stack | Atividade
+      12/06/2024
+    </title>
+    <style>
+      :root {
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #020817;
+      }
+
+      #app {
+        width: 100%;
+        max-width: 58.8rem;
+        margin: 5.6rem auto 0;
+        min-height: 100vh;
+        padding: 3rem;
+      }
+
+      body * {
+        color: #f8fafc;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 1.6rem;
+      }
+
+      header {
+        padding: 3rem 0;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 3.2rem;
+        font-weight: 600;
+        margin-bottom: 1.6rem;
+      }
+
+      header h2 {
+        font-size: 2.4rem;
+        font-weight: 500;
+      }
+
+      ul {
+        list-style: none;
+        padding: 3rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      ul li a {
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      ul li a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        padding: 3rem 0;
+      }
+
+      article h2,
+      section h3 {
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin-bottom: 2.4rem;
+        text-align: center;
+      }
+
+      section#about {
+        margin-bottom: 3rem;
+      }
+
+      .about-section-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      article {
+        margin-bottom: 3rem;
+      }
+
+      .blog-posts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3.2rem;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .blog-post p,
+      section p {
+        text-align: justify;
+        line-height: 2.4rem;
+      }
+
+      footer {
+        text-align: center;
+        padding: 3rem 0;
+      }
+
+      footer * {
+        font-size: 1.4rem;
+        font-weight: 300;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Título</h1>
+        <h2>Subtítulo</h2>
+      </header>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Início</a>
+          </li>
+          <li>
+            <a href="#about">Sobre</a>
+          </li>
+          <li>
+            <a href="#blog">Blog</a>
+          </li>
+          <li>
+            <a href="#contact">Contato</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <section id="about">
+          <h3>Sobre</h3>
+
+          <div class="about-section-wrapper">
+            <img
+              src="./img/img-01.jpeg"
+              alt="Foto do Pedro Euzebio sorrindo usando uma camisa social de cor azul clara."
+            />
+
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+          </div>
+        </section>
+
+        <article id="blog">
+          <h2>Blog</h2>
+
+          <div class="blog-posts">
+            <div class="blog-post">
+              <img src="./img/img-02.png" alt="Exemplo de imagem" />
+
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+            </div>
+            <div class="blog-post">
+              <img src="./img/img-02.png" alt="Exemplo de imagem" />
+
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+            </div>
+            <div class="blog-post">
+              <img src="./img/img-02.png" alt="Exemplo de imagem" />
+
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <section id="contact">
+          <h3>Contato</h3>
+
+          <ul>
+            <li>
+              <a href="https://instagram.com/pedroeuzebio.web" target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/pedroeuzebioo" target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/pedroeuzebio" target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://youtube.com/@pedroeuzebioo" target="_blank"
+                >YouTube</a
+              >
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          Feito com 🤍 por
+          <a href="https://github.com/pedroeuzebioo" target="_blank"
+            >Pedro Euzebio</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
