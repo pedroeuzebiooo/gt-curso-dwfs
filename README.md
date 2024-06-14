@@ -199,3 +199,30 @@
 <p>
   O mercado de trabalho dos desenvolvedores web está em alta e tem potencial para crescer ainda mais. Cada vez mais empresas estão buscando programadores, pois o mundo está dependendo deles como analistas e desenvolvedores de sistemas, além de proporcionar soluções rápidas para problemas do dia a dia.
 </p>
+
+## Realização
+
+<table border="1">
+  <tr align="center">
+    <td>
+      <a href="https://iel-ce.org.br/">
+        <img src="./.github/logo-iel.png" alt="Logo IEL Ceará Escola de Gestão e Aceleração de Negócios" />
+      </a>
+    </td>
+    <td>
+      <a href="https://www1.sfiec.org.br/">
+        <img src="./.github/logo-fiec.png" alt="Logo FIEC Federação das Indústrias do Estado do Ceará PELO FUTURO DA INDÚSTRIA" />
+      </a>
+    </td>
+    <td>
+      <a href="https://www.adece.ce.gov.br/">
+        <img src="./.github/logo-adece.png" alt="Logo ADECE Agência de Desenvolvimento do Estado do Ceará" />
+      </a>
+    </td>
+    <td>
+      <a href="https://www.ceara.gov.br/">
+        <img src="./.github/logo-governo.png" alt="Logo Governo do Estado do Ceará" />
+      </a>
+    </td>
+  </tr>
+</table>
