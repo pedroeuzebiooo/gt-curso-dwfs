@@ -14,7 +14,7 @@
 
 - [O que é o Geração Tech](#o-que-e-o-geracao-tech)
 - [Como garantir uma das vagas?](#como-garantir-uma-das-vagas)
-- [Você poderá escolher entre duas modalidades para estudar](#voce-podera-escolher-entre-duas-modalidades-para-estudar)
+- [Você poderá escolher entre duas modalidades para estudar: presencial ou online](#voce-podera-escolher-entre-duas-modalidades-para-estudar)
 - [Edital](#edital)
 - [Processo seletivo](#processo-seletivo)
 - [Cronograma](#cronograma)
@@ -43,3 +43,19 @@
 - Ter renda per capta menor ou igual a meio salário ou renda familiar de até 3 salários mínimos. (comprovação através do Cadastro Único - CadÚnico do Governo Federal);
 - Ter acesso a computador ou notebook e acesso à internet (sendo o acesso obrigatório para candidatos da modalidade online);
 - Alunos de escola pública terão preferência na seleção.
+
+## Você poderá escolher entre duas modalidades para estudar: presencial ou online
+
+<p>Ambas com 3 meses e 192 horas/aula</p>
+
+### Presencial para residentes em Fortaleza - 400 vagas
+
+- Locais: Aldeota (Av. Santos Dumont, 1510) ou Sul (Av. Washington Soares, 3663);
+- Turmas: Segunda a sexta (manhã ou tarde).
+
+### Aulas online para residentes do Interior do Ceará - 600 vagas
+
+- Aulas gravadas e disponibilizadas diariamente de segunda a quinta-feira;
+- Aulão semanal ao vivo às sextas pela manhã;
+- Fórum de discussão no Discord;
+- Acompanhamento personalizado.
