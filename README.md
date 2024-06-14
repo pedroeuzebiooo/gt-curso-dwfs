@@ -1,4 +1,6 @@
-# Geração Tech
+<h1 align="center">
+  <img src="./.github/logo-geracao-tech.png" alt="Logo Geração Tech" />
+</h1>
 
 ## Curso de Desenvolvimento Full Stack
 
