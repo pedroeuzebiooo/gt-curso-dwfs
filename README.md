@@ -67,3 +67,11 @@
 </p>
 
 - [Clique aqui e faça o download](https://geracaotech.iel-ce.org.br/edital-geracao-tech.pdf)
+
+## Processo seletivo
+
+<p>A seleção compreenderá as seguintes etapas:</p>
+
+1. Fase 01: Inscrições
+2. Fase 02: Análise de Documentação
+3. Fase 03: Matrícula e assinatura de contrato
