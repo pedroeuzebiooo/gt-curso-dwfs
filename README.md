@@ -179,3 +179,23 @@
 </table>
 
 - [Confira a ementa do curso](https://geracaotech.iel-ce.org.br/ementa-geracao-tech.pdf)
+
+## Por que ser um Desenvolvedor Web?
+
+### Necessidade
+
+<p>
+  O desenvolvedor Web pode resolver todos os problemas de uma vez - não apenas as necessidades de desenvolvimento mais básicas; Os desenvolvedores web sabem como se comunicar com desenvolvedores front-end e back-end, ajudando a reduzir o ruído na comunicação.
+</p>
+
+### Benefícios
+
+ <p>
+  Uma grande vantagem de se tornar um desenvolvedor web é a rotina flexível. Além de esse profissional estar quase imune às crises, pois tem lugar cativo em qualquer empresa, ele poderá desenvolver seu trabalho mesmo de forma remota.
+ </p>
+
+### Mercado
+
+<p>
+  O mercado de trabalho dos desenvolvedores web está em alta e tem potencial para crescer ainda mais. Cada vez mais empresas estão buscando programadores, pois o mundo está dependendo deles como analistas e desenvolvedores de sistemas, além de proporcionar soluções rápidas para problemas do dia a dia.
+</p>
