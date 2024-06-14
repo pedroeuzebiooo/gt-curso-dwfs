@@ -59,3 +59,11 @@
 - Aulão semanal ao vivo às sextas pela manhã;
 - Fórum de discussão no Discord;
 - Acompanhamento personalizado.
+
+## Edital
+
+<p>
+  Fique atento(a) aos prazos e às etapas do processo seletivo, veja também o conteúdo programático do curso e o cronograma geral.
+</p>
+
+- [Clique aqui e faça o download](https://geracaotech.iel-ce.org.br/edital-geracao-tech.pdf)
