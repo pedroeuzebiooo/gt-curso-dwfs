@@ -101,3 +101,81 @@
   - Matrículas: 30.05 a 06.06.2024
   - Aula inaugural: 10.06.2024
   - Início das aulas presenciais e online: 11.06.2024
+
+## O que você vai aprender?
+
+<p>
+  Você aprenderá a conduzir todos os estágios de <strong>desenvolvimento</strong> de sites e apps, desde a <strong>interface até estruturas internas</strong> ou bancos de dados.
+</p>
+
+<p>Aprenda HTML5, CSS3, Javascript, React, banco de dados e outras. </p>
+
+<table border="1">
+  <tr align="center">
+    <td>
+      <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+        <img src="https://skillicons.dev/icons?i=html" alt="Logo HTML" />
+        <br>
+        HTML
+      </a>
+    </td>
+    <td>
+      <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">
+        <img src="https://skillicons.dev/icons?i=css" alt="Logo CSS" />
+        <br>
+        CSS
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/">
+        <img src="https://skillicons.dev/icons?i=github" alt="Logo GitHub" />
+        <br>
+        GitHub
+      </a>
+    </td>
+    <td>
+      <a href="https://getbootstrap.com/">
+        <img src="https://skillicons.dev/icons?i=bootstrap" alt="Logo Bootstrap" />
+        <br>
+        Bootstrap
+      </a>
+    </td>
+    <td>
+      <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
+        <img src="https://skillicons.dev/icons?i=js" alt="Logo JavaScript" />
+        <br>
+        JavaScript
+      </a>
+    </td>
+    <td>
+      <a href="https://react.dev/">
+        <img src="https://skillicons.dev/icons?i=react" alt="Logo React" />
+        <br>
+        React.js
+      </a>
+    </td>
+    <td>
+      <a href="https://www.cypress.io/">
+        <img src="https://skillicons.dev/icons?i=cypress&theme=light" alt="Logo Cypress" />
+        <br>
+        Cypress
+      </a>
+    </td>
+    <td>
+      <a href="https://www.mysql.com/">
+        <img src="https://skillicons.dev/icons?i=mysql" alt="Logo MySQL" />
+        <br>
+        MySQL
+      </a>
+    </td>
+    <td>
+      <a href="https://nodejs.org/en">
+        <img src="https://skillicons.dev/icons?i=nodejs" alt="Logo Node.js" />
+        <br>
+        Node.js
+      </a>
+    </td>
+  </tr>
+</table>
+
+- [Confira a ementa do curso](https://geracaotech.iel-ce.org.br/ementa-geracao-tech.pdf)
