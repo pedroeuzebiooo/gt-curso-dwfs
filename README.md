@@ -31,3 +31,15 @@
 <p>
   A iniciativa tem o objetivo de oferecer Formação em Desenvolvimento Web, com ênfase no protagonismo dos jovens no mercado da tecnologia e inovação.
 </p>
+
+## Como garantir uma das vagas
+
+### Requisitos
+
+- Ter entre 18 e 29 anos;
+- Ser residente do Ceará;
+- Ter concluído o Ensino Médio;
+- Dominar conhecimentos em Informática Básica;
+- Ter renda per capta menor ou igual a meio salário ou renda familiar de até 3 salários mínimos. (comprovação através do Cadastro Único - CadÚnico do Governo Federal);
+- Ter acesso a computador ou notebook e acesso à internet (sendo o acesso obrigatório para candidatos da modalidade online);
+- Alunos de escola pública terão preferência na seleção.
