@@ -22,6 +22,12 @@
 - [Por que ser um Desenvolvedor Web?](#por-que-ser-um-desenvolvedor-web)
 - [Realização](#realizacao)
 
-## Curso de Desenvolvimento Full Stack
+## ❓ O que é o Geração Tech
 
-Repositório dedicado a arquivos e atividades do projeto Geração Tech - Curso de Desenvolvimento Web Full Stack
+<p>
+  O Geração Tech é um projeto do <strong>Instituto Euvaldo Lodi (IEL)</strong> e o <strong>Governo do Estado do Ceará</strong> por meio da <strong>Agência de Desenvolvimento do Estado do Ceará (ADECE)</strong> para capacitação de jovens na área da tecnologia.
+</p>
+
+<p>
+  A iniciativa tem o objetivo de oferecer Formação em Desenvolvimento Web, com ênfase no protagonismo dos jovens no mercado da tecnologia e inovação.
+</p>
