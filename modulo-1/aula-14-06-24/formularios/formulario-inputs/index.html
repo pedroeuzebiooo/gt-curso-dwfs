@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs</title>
+  </head>
+
+  <body>
+    <h1>Lista de inputs</h1>
+    <form action="" method="post">
+      <div>
+        <input type="text" placeholder="Tipo text" />
+      </div>
+      <br />
+      <div>
+        <input type="email" placeholder="Tipo email" />
+      </div>
+      <br />
+      <div>
+        <input type="password" placeholder="Tipo password" />
+      </div>
+      <br />
+      <div>
+        <label for="color">Tipo color</label>
+        <input type="color" id="color" placeholder="Tipo color" />
+      </div>
+      <br />
+      <div>
+        <label for="date">Tipo date</label>
+        <input type="date" id="date" />
+      </div>
+      <br />
+      <div>
+        <label for="datetime-local">Tipo datetime-local</label>
+        <input type="datetime-local" id="datetime-local" />
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" name="checkbox1" id="checkbox1" />
+        <label for="checkbox1">Tipo checkbox 1</label>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" name="checkbox2" id="checkbox2" />
+        <label for="checkbox2">Tipo checkbox 2</label>
+      </div>
+      <br />
+      <div>
+        <fieldset>
+          <legend>Tipo radio - (assunto de email)</legend>
+
+          <input type="radio" name="assunto" id="contato" value="Contato" />
+          <label for="contato">Contato</label>
+
+          <input type="radio" name="assunto" id="cotacao" value="Cotação" />
+          <label for="cotacao">Cotação</label>
+
+          <input type="radio" name="assunto" id="outros" value="Outros" />
+          <label for="outros">Outros</label>
+        </fieldset>
+      </div>
+      <div>
+        <button>Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>
