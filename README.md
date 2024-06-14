@@ -75,3 +75,29 @@
 1. Fase 01: Inscrições
 2. Fase 02: Análise de Documentação
 3. Fase 03: Matrícula e assinatura de contrato
+
+## Cronograma
+
+<p>
+  Fique atento às fases do processo seletivo e não perca os prazos.
+</p>
+
+- Fase 1
+  - Inscrições e testes: 10.04 a 10.05.2024
+  - Validação das Inscrições: 11.05.2024
+  - Resultado da fase 01: 12.05.2024
+  - Recebimento de recursos: 13.05.2024
+  - Análise dos recursos: 14.05.2024:
+  - Divulgação dos recursos: 15.05.2024
+- Fase 2
+  - Envio do link p/ documentos: 16.05.2024
+  - Envio dos documentos: 16.05 a 18.05.2024
+  - Análise dos documentos: 19.05 a 22.05.2024
+  - Divulgação dos classificados e classificáveis: 25.05.2024
+  - Recebimento dos Recursos: 27.05.2024
+  - Divulgação dos resultados dos recursos: 29.05.2024
+  - Divulgação do resultado final: 29.05.2024
+- Fase 3
+  - Matrículas: 30.05 a 06.06.2024
+  - Aula inaugural: 10.06.2024
+  - Início das aulas presenciais e online: 11.06.2024
