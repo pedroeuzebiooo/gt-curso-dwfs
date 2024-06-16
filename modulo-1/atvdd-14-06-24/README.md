@@ -6,7 +6,7 @@
 <strong>Vencimento:</strong> segunda-feira, 17 jun. 2024, 23:59
 </p>
 
-<h2>Passo a Passo:<h2>
+<h2>Passo a Passo:</h2>
 
 <ol>
   <li>
