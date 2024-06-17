@@ -1,0 +1,77 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #020817;
+  min-height: 100vh;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  color: #f8fafc;
+}
+
+#app {
+  width: 100%;
+  max-width: 768px;
+  margin: 5.6rem auto 0;
+  padding: 0 3rem;
+}
+
+.header {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.header ul {
+  list-style: none;
+  margin: 2.4rem 0;
+}
+
+.header ul li + li {
+  margin-top: 0.8rem;
+}
+
+.header ul li a {
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  text-decoration: underline;
+}
+
+.header img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+main {
+  padding: 3rem 0;
+}
+
+section + section {
+  margin-top: 2.4rem;
+}
+
+section div + div {
+  margin-top: 2.4rem;
+}
+
+section h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+section ul {
+  list-style-position: inside;
+}
