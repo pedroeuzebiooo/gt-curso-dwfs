@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body * {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #e8eaf4;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.max-width {
+  max-width: 128rem;
+  margin: auto;
+  padding: 3.6rem;
+}
+
+.button {
+  border-radius: 0.8rem;
+  width: 100%;
+  max-width: 388px;
+  padding: 0.8rem 1.2rem;
+
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  transition: all 0.3s;
+
+  cursor: pointer;
+}
+
+header .max-width {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+
+  display: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+
+  font-weight: 500;
+
+  color: #19191b;
+
+  transition: all 0.3s;
+}
+
+nav ul li a:hover {
+  color: #193a70;
+}
+
+nav #nav-menu-button {
+  border: none;
+  background: #e8eaf4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #193a70;
+
+  cursor: pointer;
+}
+
+nav #nav-menu-button #icon {
+  font-size: 4rem;
+}
+
+section#inicio .max-width {
+  display: flex;
+  flex-direction: column;
+  gap: 5.6rem;
+}
+
+section#inicio h1 {
+  font-size: 3.6rem;
+  font-weight: 600;
+
+  color: #000000;
+}
+
+section#inicio p {
+  text-align: justify;
+  margin: 2.4rem 0;
+
+  color: #000000;
+}
+
+section#inicio a {
+  border: 1px solid #193a70;
+
+  background: #193a70;
+
+  color: #e8eaf4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+}
+
+section#inicio a:hover {
+  background: #e8eaf4;
+  color: #193a70;
+}
+
+section#inicio img {
+  width: 100%;
+}
+
+section#sobre {
+  text-align: center;
+
+  background: #193a70;
+}
+
+section#sobre h2,
+section#sobre p {
+  color: #e8eaf4;
+}
+
+section#sobre p {
+  margin: 2.4rem 0;
+}
+
+section#sobre button {
+  border: 1px solid #46bc52;
+
+  background: #46bc52;
+
+  color: #e8eaf4;
+}
+
+section#sobre button:hover {
+  background: #193a70;
+  color: #46bc52;
+}
+
+section#alunos h2 {
+  color: #000000;
+
+  border-bottom: 2px solid #000000;
+
+  width: fit-content;
+  margin: 0 auto 2.4rem;
+}
+
+section#alunos #alunos-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+
+  padding: 2.4rem;
+}
+
+section#alunos #alunos-wrapper .aluno {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+
+  padding: 2.4rem;
+}
+
+section#alunos #alunos-wrapper .aluno img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+section#alunos #alunos-wrapper .aluno h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+section#alunos #alunos-wrapper .aluno p {
+  font-size: 1.4rem;
+}
+
+footer {
+  background: #193a70;
+
+  text-align: center;
+}
+
+footer p {
+  color: #e8eaf4;
+
+  font-size: 1.4rem;
+}
+
+footer a {
+  color: #e8eaf4;
+
+  font-size: 1.4rem;
+}
+
+@media (width >= 768px) {
+  h2 {
+    font-size: 3.6rem;
+  }
+
+  nav #nav-menu-button {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+  }
+
+  section#inicio .max-width {
+    flex-direction: row;
+  }
+
+  section#inicio h1 {
+    font-size: 4.8rem;
+  }
+
+  section#inicio img {
+    width: fit-content;
+    object-fit: contain;
+  }
+}
