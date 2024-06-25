@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "title": "Lavar a louça",
+      "description": "Lavar todos os pratos e talheres"
+    },
+    {
+      "title": "Estudar programação",
+      "description": "Praticar exercícios de JavaScript"
+    },
+    {
+      "title": "Ir ao mercado",
+      "description": "Comprar frutas, legumes e pão"
+    }
+  ]
+}
