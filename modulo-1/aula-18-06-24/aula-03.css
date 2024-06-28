@@ -1,0 +1,25 @@
+.father {
+  width: 800px;
+  height: 800px;
+  background-color: blueviolet;
+  position: relative;
+}
+
+.childreen {
+  width: 200px;
+  height: 200px;
+}
+
+.childreen.red {
+  background: red;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.childreen.blue {
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
