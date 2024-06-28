@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Regular.ttf) format(truetype);
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 48px;
+}
+
+p {
+  font-family: "Roboto";
+  font-size: 24px;
+  text-align: justify;
+}
