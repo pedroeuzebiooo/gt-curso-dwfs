@@ -1,0 +1,11 @@
+main section div p {
+  color: aqua;
+}
+
+section div p {
+  color: yellow;
+}
+
+section > div > p {
+  color: blueviolet;
+}
