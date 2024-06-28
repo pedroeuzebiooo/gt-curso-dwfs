@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Regular.ttf) format(truetype);
+}
+
+body * {
+  font-family: "Roboto";
+}
+
+h1 {
+  font-size: 48px;
+}
+
+section h2 {
+  font-size: 36px;
+}
+
+section p {
+  line-height: 24px;
+  letter-spacing: 4px;
+  white-space: 4px;
+  text-align: justify;
+  text-decoration: dashed;
+  text-indent: 30px;
+  font-style: italic;
+}
