@@ -44,6 +44,12 @@ header {
   background: var(--secondary);
 }
 
+.max-width {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
+
 header #search-task {
   width: 100%;
   padding: 0.8rem;
@@ -153,7 +159,7 @@ fieldset legend {
 
 main #tasks {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 2.4rem;
 
   padding: 3rem;
@@ -165,6 +171,9 @@ main #tasks .task {
   gap: 1.2rem;
 
   background-color: var(--foreground);
+
+  width: 100%;
+  max-width: 300px;
 
   padding: 3rem;
   border-radius: 0.8rem;

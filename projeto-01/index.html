@@ -22,45 +22,53 @@
   </head>
   <body>
     <header>
-      <input
-        type="search"
-        name="search-task"
-        id="search-task"
-        placeholder="Buscar por uma tarefa..."
-      />
+      <div class="max-width">
+        <input
+          type="search"
+          name="search-task"
+          id="search-task"
+          placeholder="Buscar por uma tarefa..."
+        />
+      </div>
     </header>
 
     <main>
-      <section id="home">
-        <h2>Todo List</h2>
+      <div class="max-width">
+        <section id="home">
+          <h2>Todo List</h2>
 
-        <button type="button" id="button-open-modal">Adicionar</button>
-      </section>
+          <button type="button" id="button-open-modal">Adicionar</button>
+        </section>
 
-      <dialog>
-        <form>
-          <fieldset>
-            <legend>Adicionar Tarefa</legend>
+        <dialog>
+          <form>
+            <fieldset>
+              <legend>Adicionar Tarefa</legend>
 
-            <div class="wrapper-input">
-              <label for="title">Título:</label>
-              <input type="text" name="title" id="title" required />
-            </div>
+              <div class="wrapper-input">
+                <label for="title">Título:</label>
+                <input type="text" name="title" id="title" required />
+              </div>
 
-            <div class="wrapper-input">
-              <label for="description">Descrição:</label>
-              <textarea name="description" id="description" required></textarea>
-            </div>
+              <div class="wrapper-input">
+                <label for="description">Descrição:</label>
+                <textarea
+                  name="description"
+                  id="description"
+                  required
+                ></textarea>
+              </div>
 
-            <div class="wrapper-button">
-              <button type="submit" id="button-add-task">Adicionar</button>
-              <button type="button" id="button-close-modal">Fechar</button>
-            </div>
-          </fieldset>
-        </form>
-      </dialog>
+              <div class="wrapper-button">
+                <button type="submit" id="button-add-task">Adicionar</button>
+                <button type="button" id="button-close-modal">Fechar</button>
+              </div>
+            </fieldset>
+          </form>
+        </dialog>
 
-      <section id="tasks"></section>
+        <section id="tasks"></section>
+      </div>
     </main>
 
     <script src="./index.js"></script>
