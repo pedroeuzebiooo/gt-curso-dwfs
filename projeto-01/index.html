@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pedro Euzebio" />
+    <meta
+      name="description"
+      content="Projeto 01 do Curso de Desenvolvimento Web Full Stack do projeto Geração Tech"
+    />
+    <title>
+      Projeto 01 do Curso de Desenvolvimento Web Full Stack do projeto Geração
+      Tech
+    </title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <input
+        type="search"
+        name="search-task"
+        id="search-task"
+        placeholder="Buscar por uma tarefa..."
+      />
+    </header>
+
+    <main>
+      <section id="home">
+        <h2>Todo List</h2>
+
+        <button type="button" id="button-open-modal">Adicionar</button>
+      </section>
+
+      <dialog>
+        <form>
+          <fieldset>
+            <legend>Adicionar Tarefa</legend>
+
+            <div class="wrapper-input">
+              <label for="title">Título:</label>
+              <input type="text" name="title" id="title" required />
+            </div>
+
+            <div class="wrapper-input">
+              <label for="description">Descrição:</label>
+              <textarea name="description" id="description" required></textarea>
+            </div>
+
+            <div class="wrapper-button">
+              <button type="submit" id="button-add-task">Adicionar</button>
+              <button type="button" id="button-close-modal">Fechar</button>
+            </div>
+          </fieldset>
+        </form>
+      </dialog>
+
+      <section id="tasks"></section>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
