@@ -1,0 +1,29 @@
+nav {
+  padding: 5.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  font-size: 3.6rem;
+
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
