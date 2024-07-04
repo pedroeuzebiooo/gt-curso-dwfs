@@ -1,36 +1,38 @@
 <h1 align="center">
-  <img src="./.github/logo-geracao-tech.png" alt="Logo Geração Tech" />
+  <a href="https://geracaotech.iel-ce.org.br">
+    <img src="./.github/logo-geracao-tech.png" alt="Logo Geração Tech" />
+  </a>
 </h1>
 
-<h2>
-  Desenvolvendo o Futuro da Tecnologia no Ceará
-</h2>
+## Roteiro
 
-<p>
-  1.000 vagas para impulsionar o conhecimento, tendo ênfase na Tecnologia e Inovação, com o objetivo de capacitar jovens, de forma totalmente gratuita, por meio de uma formação intensiva em Desenvolvimento Web.
-</p>
-
-## 📃 Roteiro
-
-- [O que é o Geração Tech](#o-que-e-o-geracao-tech)
-- [Como garantir uma das vagas?](#como-garantir-uma-das-vagas)
-- [Você poderá escolher entre duas modalidades para estudar: presencial ou online](#voce-podera-escolher-entre-duas-modalidades-para-estudar)
+- [Roteiro](#roteiro)
+- [Desenvolvendo o Futuro da Tecnologia no Ceará](#desenvolvendo-o-futuro-da-tecnologia-no-ceará)
+- [O que é o Geração Tech](#o-que-é-o-geração-tech)
+- [Como garantir uma das vagas](#como-garantir-uma-das-vagas)
+  - [Requisitos](#requisitos)
+- [Você poderá escolher entre duas modalidades para estudar: presencial ou online](#você-poderá-escolher-entre-duas-modalidades-para-estudar-presencial-ou-online)
+  - [Presencial para residentes em Fortaleza - 400 vagas](#presencial-para-residentes-em-fortaleza---400-vagas)
+  - [Aulas online para residentes do Interior do Ceará - 600 vagas](#aulas-online-para-residentes-do-interior-do-ceará---600-vagas)
 - [Edital](#edital)
 - [Processo seletivo](#processo-seletivo)
 - [Cronograma](#cronograma)
-- [O que você vai aprender?](#o-que-voce-vai-aprender)
+- [O que você vai aprender?](#o-que-você-vai-aprender)
 - [Por que ser um Desenvolvedor Web?](#por-que-ser-um-desenvolvedor-web)
-- [Realização](#realizacao)
+  - [Necessidade](#necessidade)
+  - [Benefícios](#benefícios)
+  - [Mercado](#mercado)
+- [Realização](#realização)
 
-## ❓ O que é o Geração Tech
+## Desenvolvendo o Futuro da Tecnologia no Ceará
 
-<p>
-  O Geração Tech é um projeto do <strong>Instituto Euvaldo Lodi (IEL)</strong> e o <strong>Governo do Estado do Ceará</strong> por meio da <strong>Agência de Desenvolvimento do Estado do Ceará (ADECE)</strong> para capacitação de jovens na área da tecnologia.
-</p>
+1.000 vagas para impulsionar o conhecimento, tendo ênfase na Tecnologia e Inovação, com o objetivo de capacitar jovens, de forma totalmente gratuita, por meio de uma formação intensiva em Desenvolvimento Web.
 
-<p>
-  A iniciativa tem o objetivo de oferecer Formação em Desenvolvimento Web, com ênfase no protagonismo dos jovens no mercado da tecnologia e inovação.
-</p>
+## O que é o Geração Tech
+
+O Geração Tech é um projeto do **Instituto Euvaldo Lodi (IEL)** e o **Governo do Estado do Ceará** por meio da **Agência de Desenvolvimento do Estado do Ceará (ADECE)** para capacitação de jovens na área da tecnologia.
+
+A iniciativa tem o objetivo de oferecer Formação em Desenvolvimento Web, com ênfase no protagonismo dos jovens no mercado da tecnologia e inovação.
 
 ## Como garantir uma das vagas
 
@@ -46,7 +48,7 @@
 
 ## Você poderá escolher entre duas modalidades para estudar: presencial ou online
 
-<p>Ambas com 3 meses e 192 horas/aula</p>
+Ambas com 3 meses e 192 horas/aula
 
 ### Presencial para residentes em Fortaleza - 400 vagas
 
@@ -62,15 +64,13 @@
 
 ## Edital
 
-<p>
-  Fique atento(a) aos prazos e às etapas do processo seletivo, veja também o conteúdo programático do curso e o cronograma geral.
-</p>
+Fique atento(a) aos prazos e às etapas do processo seletivo, veja também o conteúdo programático do curso e o cronograma geral.
 
 - [Clique aqui e faça o download](https://geracaotech.iel-ce.org.br/edital-geracao-tech.pdf)
 
 ## Processo seletivo
 
-<p>A seleção compreenderá as seguintes etapas:</p>
+A seleção compreenderá as seguintes etapas:
 
 1. Fase 01: Inscrições
 2. Fase 02: Análise de Documentação
@@ -78,9 +78,7 @@
 
 ## Cronograma
 
-<p>
-  Fique atento às fases do processo seletivo e não perca os prazos.
-</p>
+Fique atento às fases do processo seletivo e não perca os prazos.
 
 - Fase 1
   - Inscrições e testes: 10.04 a 10.05.2024
@@ -104,11 +102,9 @@
 
 ## O que você vai aprender?
 
-<p>
-  Você aprenderá a conduzir todos os estágios de <strong>desenvolvimento</strong> de sites e apps, desde a <strong>interface até estruturas internas</strong> ou bancos de dados.
-</p>
+Você aprenderá a conduzir todos os estágios de **desenvolvimento** de sites e apps, desde a **interface até estruturas internas** ou bancos de dados.
 
-<p>Aprenda HTML5, CSS3, Javascript, React, banco de dados e outras. </p>
+Aprenda HTML5, CSS3, Javascript, React, banco de dados e outras.
 
 <table border="1">
   <tr align="center">
@@ -184,21 +180,15 @@
 
 ### Necessidade
 
-<p>
-  O desenvolvedor Web pode resolver todos os problemas de uma vez - não apenas as necessidades de desenvolvimento mais básicas; Os desenvolvedores web sabem como se comunicar com desenvolvedores front-end e back-end, ajudando a reduzir o ruído na comunicação.
-</p>
+O desenvolvedor Web pode resolver todos os problemas de uma vez - não apenas as necessidades de desenvolvimento mais básicas; Os desenvolvedores web sabem como se comunicar com desenvolvedores front-end e back-end, ajudando a reduzir o ruído na comunicação.
 
 ### Benefícios
 
- <p>
-  Uma grande vantagem de se tornar um desenvolvedor web é a rotina flexível. Além de esse profissional estar quase imune às crises, pois tem lugar cativo em qualquer empresa, ele poderá desenvolver seu trabalho mesmo de forma remota.
- </p>
+Uma grande vantagem de se tornar um desenvolvedor web é a rotina flexível. Além de esse profissional estar quase imune às crises, pois tem lugar cativo em qualquer empresa, ele poderá desenvolver seu trabalho mesmo de forma remota.
 
 ### Mercado
 
-<p>
-  O mercado de trabalho dos desenvolvedores web está em alta e tem potencial para crescer ainda mais. Cada vez mais empresas estão buscando programadores, pois o mundo está dependendo deles como analistas e desenvolvedores de sistemas, além de proporcionar soluções rápidas para problemas do dia a dia.
-</p>
+O mercado de trabalho dos desenvolvedores web está em alta e tem potencial para crescer ainda mais. Cada vez mais empresas estão buscando programadores, pois o mundo está dependendo deles como analistas e desenvolvedores de sistemas, além de proporcionar soluções rápidas para problemas do dia a dia.
 
 ## Realização
 
@@ -211,12 +201,12 @@
     </td>
     <td>
       <a href="https://www1.sfiec.org.br/">
-        <img src="./.github/logo-fiec.png" alt="Logo FIEC Federação das Indústrias do Estado do Ceará PELO FUTURO DA INDÚSTRIA" />
+        <img src="./.github/logo-fiec.png" alt="Logo FIEC (Federação das Indústrias do Estado do Ceará) PELO FUTURO DA INDÚSTRIA" />
       </a>
     </td>
     <td>
       <a href="https://www.adece.ce.gov.br/">
-        <img src="./.github/logo-adece.png" alt="Logo ADECE Agência de Desenvolvimento do Estado do Ceará" />
+        <img src="./.github/logo-adece.png" alt="Logo ADECE (Agência de Desenvolvimento do Estado do Ceará)" />
       </a>
     </td>
     <td>
