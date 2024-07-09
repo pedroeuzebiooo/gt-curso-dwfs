@@ -12,26 +12,6 @@ Para responder a essa pergunta, será necessário entender a anatomia de um docu
 - Descrever a estrutura básica de um documento HTML
 - Identificar e utilizar as principais tags HTML em um documento HTML
 
-## Roteiro
-
-- [Dia 03 (13/06/2024)](#dia-03-13062024)
-  - [Roteiro](#roteiro)
-  - [Tags HTML](#tags-html)
-    - [Aula 01](#aula-01)
-    - [Aula 01 - Parte 2](#aula-01---parte-2)
-  - [O elemento header](#o-elemento-header)
-  - [O elemento nav](#o-elemento-nav)
-  - [Âncoras](#âncoras)
-    - [Continuação](#continuação)
-    - [Aula 02](#aula-02)
-    - [Aula 02 - Parte 02](#aula-02---parte-02)
-  - [Áudio e vídeo](#áudio-e-vídeo)
-    - [Aula 03](#aula-03)
-    - [Aula 03 - Parte 2](#aula-03---parte-2)
-  - [O atributo style](#o-atributo-style)
-    - [Parte 02](#parte-02)
-    - [Aula 04](#aula-04)
-
 ## Tags HTML
 
 Definição de Tags HTML
@@ -161,10 +141,6 @@ Tags Semânticas
 
 Essa lista cobre as principais tags HTML utilizadas na criação de páginas web. Cada uma dessas tags possui atributos específicos que podem ser utilizados para definir suas propriedades e comportamentos.
 
-### Aula 01
-
-### Aula 01 - Parte 2
-
 ## O elemento header
 
 O elemento `<header>` (cabeçalho) contém informações introdutórias ao elemento semântico circundante dentro de um documento HTML. Um cabeçalho é diferente de um título, mas um cabeçalho geralmente inclui um elemento de título (`<h1>`, … , `<h6>`).
@@ -233,10 +209,6 @@ O elemento iframe funciona como uma janela distinta do navegador e, portanto, qu
 
 Os documentos HTML suportam vários níveis de aninhamento com a tag `<iframe>`. O destino \_top, quando usado em uma âncora dentro de um documento aninhado, fará com que o local referenciado substitua o documento principal na janela do navegador, independentemente de ele ser o pai imediato do `<iframe>` ou um ancestral mais distante.
 
-### Aula 02
-
-### Aula 02 - Parte 02
-
 ## Áudio e vídeo
 
 Podemos adicionar conteúdos de áudio e vídeo a um documento HTML mais ou menos da mesma maneira que as imagens. Sem surpresa, a tag para adicionar áudio é `<audio>` e a tag para adicionar vídeo é `<video>`. Obviamente, os navegadores em modo texto não são capazes de reproduzir conteúdo multimídia, de forma que as tags `<audio>` e `<video>` empregam uma tag de fechamento para conter o texto usado como explicação para o elemento que não pôde ser mostrado. Por exemplo:
@@ -246,10 +218,6 @@ Podemos adicionar conteúdos de áudio e vídeo a um documento HTML mais ou meno
 Se o navegador não suportar a tag `<audio>`, a linha “Unable to play recording.mp3” será mostrada em seu lugar. O uso das tags de fechamento `</audio>` ou `</video>`permitem que a página web inclua conteúdos alternativos mais elaborados do que a simples linha de texto permitida pelo atributo alt da tag `<img>`.
 
 O atributo src das tags `<audio>` e `<video>` funcionam da mesma forma que em `<img>`, mas ele também aceita URLs apontando para uma transmissão ao vivo. O navegador cuida de armazenar em buffer, decodificar e exibir o conteúdo conforme ele é recebido. O atributo controls exibe os controles de reprodução. Sem ele, o visitante não poderá pausar, retroceder ou controlar a reprodução de qualquer outra maneira.
-
-### Aula 03
-
-### Aula 03 - Parte 2
 
 ## O atributo style
 
@@ -300,5 +268,3 @@ O retângulo correspondente ao elemento p no corpo do documento HTML de amostra 
 ![p-style-3](./.github/p-style-3.png)
 
 Conforme adicionamos novas propriedades personalizadas de CSS ao atributo style, o código como um todo vai começando a ficar confuso. A inclusão de muitas regras de CSS no atributo style prejudica a separação entre a estrutura (HTML) e a apresentação (CSS). Além disso, você logo perceberá que muitos estilos são compartilhados entre diferentes elementos e não vale a pena repeti-los em cada um deles.
-
-### Aula 04
