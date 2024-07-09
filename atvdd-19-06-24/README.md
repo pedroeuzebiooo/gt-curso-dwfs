@@ -19,3 +19,15 @@ Vamos adicionar os conceitos de Flexbox no CSS para organizar os elementos.
 - **Revisar e Atualizar o HTML:** Certifique-se de que o HTML está corretamente estruturado conforme o exemplo acima, adicionando classes para facilitar o uso do Flexbox.
 - **Adicionar e Modificar o CSS:** Atualize o arquivo CSS para incluir as novas propriedades do Flexbox.
 - **Entregar a Atividade:** Nos envie a imagem ou a pasta zipada com os arquivos atualizados.
+
+### Versão Mobile
+
+<p align="center">
+   <img src="./.github/preview-mobile.png" alt="preview mobile" width="300px">
+<p>
+
+### Versão Desktop
+
+<p>
+   <img src="./.github/preview-desktop.png" alt="preview desktop">
+<p>
