@@ -28,3 +28,17 @@ Criar uma página web simples e semântica, utilizando corretamente as tags HTML
 
 - Os alunos devem salvar o arquivo `index.html` e abrir no navegador para verificar se a estrutura está correta e se os estilos básicos foram aplicados.
 - Com o arquivo correto, vocês podem inserir ele no campo de entrega ou colocar o código dentro da caixa de entrega!
+
+## Resolução
+
+### Versão Mobile
+
+<p align="center">
+   <img src="./.github/preview-mobile.png" alt="preview mobile" width="300px">
+<p>
+
+### Versão Desktop
+
+<p>
+   <img src="./.github/preview-desktop.png" alt="preview desktop">
+<p>
