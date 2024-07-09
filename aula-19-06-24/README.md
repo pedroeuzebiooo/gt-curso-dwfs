@@ -2,39 +2,6 @@
 
 Hoje, vamos continuar nossa jornada pelo mundo do desenvolvimento web, explorando os poderosos recursos do CSS Flexbox. Este é um passo importante para vocês se tornarem desenvolvedores web proficientes, capazes de criar layouts modernos e responsivos com facilidade
 
-## Roteiro
-
-- [Dia 07(19/06/2024)](#dia-0719062024)
-  - [Roteiro](#roteiro)
-  - [Propriedades CSS Adicionais](#propriedades-css-adicionais)
-  - [Aula 01](#aula-01)
-  - [Conceitos básicos de flexbox](#conceitos-básicos-de-flexbox)
-    - [Eixo principal](#eixo-principal)
-    - [Sintaxe](#sintaxe)
-  - [Flex Container](#flex-container)
-    - [Propriedades de um Flex Container](#propriedades-de-um-flex-container)
-      - [`justify-content`](#justify-content)
-      - [align-items](#align-items)
-      - [flex-wrap](#flex-wrap)
-  - [Funcionamento e construção](#funcionamento-e-construção)
-    - [Explicação do Código](#explicação-do-código)
-    - [Continuação](#continuação)
-    - [Aula 02](#aula-02)
-  - [Justify-content](#justify-content-1)
-    - [Valores da Propriedade justify-content](#valores-da-propriedade-justify-content)
-    - [Exemplos Visuais](#exemplos-visuais)
-      - [HTML de Base](#html-de-base)
-      - [CSS para Demonstração](#css-para-demonstração)
-      - [Modificações no HTML para Demonstração de Cada Valor](#modificações-no-html-para-demonstração-de-cada-valor)
-  - [Align-items](#align-items-1)
-    - [Valores](#valores)
-    - [Exemplos](#exemplos)
-      - [HTML de Base](#html-de-base-1)
-      - [CSS para Demonstração](#css-para-demonstração-1)
-      - [Modificações no HTML para Demonstração de Cada Valor](#modificações-no-html-para-demonstração-de-cada-valor-1)
-      - [Explicação dos Exemplos](#explicação-dos-exemplos)
-    - [Aula 03](#aula-03)
-
 ## Propriedades CSS Adicionais
 
 Além das propriedades básicas que vimos anteriormente, o CSS oferece uma ampla gama de propriedades para estilizar e manipular o layout dos elementos HTML.
@@ -51,8 +18,6 @@ Aqui estão algumas propriedades CSS que vimos e mais algumas adicionais e suas 
 - overflow: Controla o que acontece quando o conteúdo de um elemento é muito grande para caber em seu bloco (por exemplo, visible, hidden, scroll, auto).
 - box-shadow: Adiciona sombras às caixas dos elementos.
   -text-shadow: Adiciona sombras ao texto.
-
-## Aula 01
 
 ## Conceitos básicos de flexbox
 
@@ -202,8 +167,6 @@ E da seguinte forma no seu arquivo HTML:
 ### Continuação
 
 Temos que saber que teremos propriedades CSS para trabalhar com o elemento que possui nossos itens (container ou elemento pai) e propriedades para os nossos itens (elementos filhos).
-
-### Aula 02
 
 ## Justify-content
 
@@ -476,5 +439,3 @@ Para ver os diferentes comportamentos, você pode alterar a classe do contêiner
 - .align-baseline: Os itens são alinhados com base nas suas linhas de base de texto, útil para alinhar textos de diferentes tamanhos.
 
 A propriedade align-items é crucial para controlar o alinhamento vertical dos itens dentro de um contêiner flexível ao longo do eixo transversal. Compreender como cada valor funciona permite criar layouts mais sofisticados e bem organizados, garantindo que os itens dentro de um contêiner flexível se comportem de maneira previsível e esteticamente agradável.
-
-### Aula 03
