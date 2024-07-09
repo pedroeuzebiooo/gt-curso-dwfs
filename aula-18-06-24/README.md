@@ -4,36 +4,6 @@ Bom dia!!
 
 Hoje, vamos colocar em prática conceitos essenciais do CSS, focando principalmente no Box Model e nas propriedades de layout.
 
-## Roteiro
-
-- [Dia 06 (18/06/2024)](#dia-06-18062024)
-  - [Roteiro](#roteiro)
-  - [Layout e modelo de caixa CSS](#layout-e-modelo-de-caixa-css)
-    - [Fluxo normal](#fluxo-normal)
-    - [Continuação](#continuação)
-  - [Personalizando o fluxo normal](#personalizando-o-fluxo-normal)
-    - [Posicionamento das caixas](#posicionamento-das-caixas)
-  - [Aula 01](#aula-01)
-  - [A propriedade display](#a-propriedade-display)
-  - [A propriedade visibility](#a-propriedade-visibility)
-    - [Sintaxe](#sintaxe)
-    - [Valores](#valores)
-      - [visible](#visible)
-      - [hidden](#hidden)
-      - [collapse](#collapse)
-    - [Sintaxe normal](#sintaxe-normal)
-    - [Interpolação](#interpolação)
-    - [Exemplo básico](#exemplo-básico)
-      - [HTML](#html)
-      - [CSS](#css)
-  - [Aula 02](#aula-02)
-  - [Aula 03](#aula-03)
-  - [Aula 04](#aula-04)
-  - [Aula 05](#aula-05)
-  - [Reforçando a sua prática de CSS](#reforçando-a-sua-prática-de-css)
-    - [Hoje vamos treinar através de uma plataforma mundialmente conhecida: a W3Schools!](#hoje-vamos-treinar-através-de-uma-plataforma-mundialmente-conhecida-a-w3schools)
-    - [Passo a Passo para Usar a Plataforma W3Schools para Exercícios de CSS](#passo-a-passo-para-usar-a-plataforma-w3schools-para-exercícios-de-css)
-
 ## Layout e modelo de caixa CSS
 
 Cada um dos elementos visíveis em um documento HTML é renderizado como uma caixa retangular. Assim, o termo modelo de caixa descreve o método usado pelo CSS para modificar as propriedades visuais dos elementos. Como caixas de tamanhos diferentes, os elementos HTML podem ser aninhados dentro de elementos contêiner — normalmente o elemento div — e em seguida separados em seções.
@@ -54,7 +24,7 @@ Cada palavra está em um elemento span para que possamos estilizá-las e constat
 
 O resultado esperado no seu navegador é o que está ilustrado abaixo:
 
-![layout-modelo-caixa-css-3](./.github/layout-modelo-caixa-css-3.png)
+![layout-modelo-caixa-css-3](./.github/layout-modelo-caixa-css-3.jpg)
 
 A Figura mostra que cada tag HTML tem uma caixa correspondente no layout. Os elementos div, h2 e p se estendem até a largura do corpo, ao passo que o pai de cada elemento h2 e p é o div correspondente. As caixas que se estendem pela largura de seu elemento pai são chamadas elementos de bloco. Algumas das tags HTML mais comuns representadas como blocos são h1, h2, h3, p, ul, ol, table, li, div, section, form e aside. Elementos de bloco irmãos — ou seja, que compartilham o mesmo elemento pai imediato — são empilhados dentro do pai, de cima para baixo.
 
@@ -74,7 +44,7 @@ As propriedades margin e padding afetam todos os tipos de caixa. Se você não d
 
 O resultado aparece na Figura abaixo:
 
-![layout-modelo-caixa-css-5](./.github/layout-modelo-caixa-css-5.png)
+![layout-modelo-caixa-css-5](./.github/layout-modelo-caixa-css-5.jpg)
 
 O elemento body, por padrão, também inclui uma pequena margem que cria um espacinho ao redor dele. Essa lacuna também pode ser removida usando a propriedade margin.
 
@@ -84,7 +54,7 @@ Enquanto a propriedade margin (margem) define o espaço entre o elemento e seus 
 
 Apenas a regra para o segundo div foi modificada, por isso os resultados mostram a diferença entre o segundo div e os outros contêineres div.
 
-![layout-modelo-caixa-css-7](./.github/layout-modelo-caixa-css-7.png)
+![layout-modelo-caixa-css-7](./.github/layout-modelo-caixa-css-7.jpg)
 
 A propriedade margin é uma abreviatura para quatro propriedades que controlam os quatro lados da caixa: margin-top, margin-right, margin-bottom e margin-left. Quando um único valor é atribuído a margin, como nos exemplos que vimos até agora, ele é aplicado nas quatro margens da caixa. Quando dois valores são escritos, o primeiro define as margens superior e inferior e o segundo, as margens direita e esquerda. A instrução margin: 1em 2em, por exemplo, define um espaço de 1 em para as margens superior e inferior e um espaço de 2 em para as margens direita e esquerda. Escrevemos quatro valores para definir as margens dos quatro lados em sentido horário, começando no topo. Os diferentes valores na propriedade abreviada não precisam usar as mesmas unidades.
 
@@ -96,7 +66,7 @@ Em seu comportamento padrão, os elementos de bloco são esticados para se ajust
 
 O acréscimo de width: 6em à regra de CSS encolhe o primeiro div horizontalmente, deixando um espaço em branco à direita dele:
 
-![layout-modelo-caixa-css-9](./.github/layout-modelo-caixa-css-9.png)
+![layout-modelo-caixa-css-9](./.github/layout-modelo-caixa-css-9.jpg)
 
 Em vez de deixar o primeiro div alinhado à esquerda, vamos centralizá-lo. Centralizar uma caixa é equivalente a definir margens do mesmo tamanho em ambos os lados; assim, podemos usar a propriedade de margem para centralizá-la. O tamanho do espaço disponível costuma variar, por isso usamos o valor auto para as margens esquerda e direita:
 
@@ -104,7 +74,7 @@ Em vez de deixar o primeiro div alinhado à esquerda, vamos centralizá-lo. Cent
 
 As margens esquerda e direita são calculadas automaticamente pelo navegador e a caixa é centralizada:
 
-![layout-modelo-caixa-css-11](./.github/layout-modelo-caixa-css-11.png)
+![layout-modelo-caixa-css-11](./.github/layout-modelo-caixa-css-11.jpg)
 
 Como é fácil constatar, ao tornar um elemento de bloco mais estreito, não abrimos mais espaço para o elemento seguinte. O fluxo natural é preservado, como se o elemento mais estreito ainda ocupasse toda a largura disponível.
 
@@ -118,7 +88,7 @@ O fluxo normal é simples e sequencial. O CSS também permite interromper o flux
 
 As margens automáticas são ignoradas em uma caixa flutuante, de modo que a propriedade margin pode ser removida. A Figura mostra o resultado da flutuação à direita do primeiro div.
 
-![personalizando-fluxo-normal-2](./.github/personalizando-fluxo-normal-2.png)
+![personalizando-fluxo-normal-2](./.github/personalizando-fluxo-normal-2.jpg)
 
 Por padrão, todos os elementos de bloco que vêm após o elemento flutuante ficarão abaixo dele. Portanto, se a altura for suficiente, a caixa flutuante cobrirá todos os elementos de bloco restantes.
 
@@ -130,7 +100,7 @@ A imagem anterior mostra como o primeiro div cobre o segundo div e parte do terc
 
 Ao definir a propriedade clear como right, o elemento correspondente pula os elementos anteriores que flutuam à direita, retomando o fluxo normal:
 
-![personalizando-fluxo-normal-4](./.github/personalizando-fluxo-normal-4.png)
+![personalizando-fluxo-normal-4](./.github/personalizando-fluxo-normal-4.jpg)
 
 Da mesma forma, se um elemento anterior estiver flutuando à esquerda, usamos clear: left para retomar o fluxo normal. Se for preciso pular elementos flutuantes à esquerda e à direita, usamos clear: both.
 
@@ -152,8 +122,6 @@ O elemento segue o fluxo normal do documento. No entanto, em vez de sair da jane
 
 Nos posicionamentos que aceitam as propriedades top, right, bottom e left, não é necessário usar todas elas. Se você definir as propriedades top e height de um elemento absoluto, por exemplo, o navegador calcula implicitamente a propriedade bottom (posição superior + altura = posição inferior).
 
-## Aula 01
-
 ## A propriedade display
 
 Se a ordem fornecida pelo fluxo normal não for um problema em seu design, mas você quiser alterar a forma como as caixas se alinham na página, modifique a propriedade display do elemento. A propriedade display pode inclusive fazer o elemento desaparecer completamente do documento renderizado, quando definida como display: none. Isso é útil quando desejamos exibir o elemento posteriormente usando JavaScript.
@@ -174,7 +142,7 @@ Adicione a seguinte regra de CSS à folha de estilo para transformar o contêine
 
 O resultado são os três elementos div internos renderizados lado a lado:
 
-![propriedade-display-3](./.github/propriedade-display-3.png)
+![propriedade-display-3](./.github/propriedade-display-3.jpg)
 
 O valor inline-flex em vez de flex daria basicamente o mesmo resultado, mas faria com que os filhos se comportassem mais como elementos de linha.
 
@@ -236,14 +204,6 @@ Os valores de visibilidade são interpoláveis ​​entre visível e não visí
 #### CSS
 
 ![propriedade-visible-2](./.github/propriedade-visible-2.png)
-
-## Aula 02
-
-## Aula 03
-
-## Aula 04
-
-## Aula 05
 
 ## Reforçando a sua prática de CSS
 
