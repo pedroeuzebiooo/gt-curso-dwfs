@@ -6,32 +6,6 @@ Preparem-se para uma jornada prática e enriquecedora, onde cada conceito aprend
 
 Vamos começar essa jornada de aprendizado juntos!
 
-## Roteiro
-
-- [Dia 05 (17/06/2024)](#dia-05-17062024)
-  - [Roteiro](#roteiro)
-  - [Introdução ao CSS](#introdução-ao-css)
-    - [O CSS inline](#o-css-inline)
-  - [O atributo style](#o-atributo-style)
-  - [Aula 01](#aula-01)
-  - [Regras de CSS](#regras-de-css)
-    - [A tag style](#a-tag-style)
-  - [CSS em arquivos externos](#css-em-arquivos-externos)
-  - [Aula 02](#aula-02)
-  - [Estilos de página inteira](#estilos-de-página-inteira)
-  - [Seletores restritivos](#seletores-restritivos)
-    - [Continuação](#continuação)
-    - [Continuação Parte 2](#continuação-parte-2)
-  - [Aula 03](#aula-03)
-  - [Classes](#classes)
-  - [Valores de unidade](#valores-de-unidade)
-    - [Unidades absolutas](#unidades-absolutas)
-    - [Unidades relativas](#unidades-relativas)
-    - [Propriedades das fontes e do texto](#propriedades-das-fontes-e-do-texto)
-  - [Aula 04](#aula-04)
-    - [Google Fonts](#google-fonts)
-  - [Aula 05](#aula-05)
-
 ## Introdução ao CSS
 
 O HTML sozinho não tem muita versatilidade para construir interfaces mais elaboradas, nem recursos de programação de finalidade geral. Por esse motivo, um documento HTML que deve funcionar como um aplicativo cliente vem sempre acompanhado por um ou mais conjuntos de CSS e JavaScript.
@@ -69,8 +43,6 @@ Outras propriedades personalizadas podem entrar na mesma propriedade style, mas 
 Para ver o resultado dessas alterações, salve o HTML a seguir em um arquivo e abra-o em um navegador web:
 
 ![atributo-style-exemplo](./.github/atributo-style-exemplo.png)
-
-## Aula 01
 
 ## Regras de CSS
 
@@ -113,8 +85,6 @@ A associação entre o documento HTML e as regras de CSS armazenadas em um arqui
 A tag HTML `<link>` define uma folha de estilo externa a ser usada no documento atual e deve constar da seção head do documento HTML:
 
 ![css-em-arquivos-externos](./.github/css-em-arquivos-externos.png)
-
-## Aula 02
 
 ## Estilos de página inteira
 
@@ -189,8 +159,6 @@ No entanto, os seletores separados não são a única maneira de fazer isso. O C
 ![seletores-restritivos-6](./.github/seletores-restritivos-6.png)
 
 O agrupamento de seletores elimina o trabalho extra de escrever estilos duplicados. Além disso, você pode querer alterar a propriedade novamente no futuro e talvez não se lembre de alterá-la em todos os lugares diferentes.
-
-## Aula 03
 
 ## Classes
 
@@ -322,10 +290,6 @@ Ao revisar o conteúdo, alguns autores gostam de riscar as partes incorretas ou 
 
 ![propriedades-das-fontes-textos-6](./.github/propriedades-das-fontes-textos-6.png)
 
-## Aula 04
-
 ### Google Fonts
 
 Documentação Oficial do Google Fonts: [https://developers.google.com/fonts/docs/css2?hl=pt-br](https://developers.google.com/fonts/docs/css2?hl=pt-br)
-
-## Aula 05
