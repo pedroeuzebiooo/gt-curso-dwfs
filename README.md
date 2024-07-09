@@ -4,25 +4,96 @@
   </a>
 </h1>
 
-## Roteiro
+## 📃 Roteiro
 
-- [Roteiro](#roteiro)
-- [Desenvolvendo o Futuro da Tecnologia no Ceará](#desenvolvendo-o-futuro-da-tecnologia-no-ceará)
-- [O que é o Geração Tech](#o-que-é-o-geração-tech)
-- [Como garantir uma das vagas](#como-garantir-uma-das-vagas)
-  - [Requisitos](#requisitos)
-- [Você poderá escolher entre duas modalidades para estudar: presencial ou online](#você-poderá-escolher-entre-duas-modalidades-para-estudar-presencial-ou-online)
-  - [Presencial para residentes em Fortaleza - 400 vagas](#presencial-para-residentes-em-fortaleza---400-vagas)
-  - [Aulas online para residentes do Interior do Ceará - 600 vagas](#aulas-online-para-residentes-do-interior-do-ceará---600-vagas)
-- [Edital](#edital)
-- [Processo seletivo](#processo-seletivo)
-- [Cronograma](#cronograma)
-- [O que você vai aprender?](#o-que-você-vai-aprender)
-- [Por que ser um Desenvolvedor Web?](#por-que-ser-um-desenvolvedor-web)
-  - [Necessidade](#necessidade)
-  - [Benefícios](#benefícios)
-  - [Mercado](#mercado)
-- [Realização](#realização)
+<ul>
+  <li>
+    <a href="#desenvolvendo-o-futuro-da-tecnologia-no-ceará">
+      Desenvolvendo o Futuro da Tecnologia no Ceará
+    </a>
+  </li>
+  <li>
+    <a href="#o-que-e-o-geracao-tech">
+      O que é o Geração Tech
+    </a>
+  </li>
+  <li>
+    <a href="#como-garantir-uma-das-vagas">
+      Como garantir uma das vagas
+    </a>
+    <ul>
+      <li>
+        <a href="#requisitos">
+          Requisitos
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#voce-podera-escolher-entre-duas-modalidades-para-estudar-presencial-online">
+      Você poderá escolher entre duas modalidades para estudar: presencial ou online
+    </a>
+    <ul>
+      <li>
+        <a href="#presencial-para-residentes-em-fortaleza">
+          Presencial para residentes em Fortaleza - 400 vagas
+        </a>
+      </li>
+      <li>
+        <a href="#aulas-online-para-residentes-do-interior-do-ceara-600-vagas">
+          Aulas online para residentes do Interior do Ceará - 600 vagas
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#edital">
+      Edital
+    </a>
+  </li>
+  <li>
+    <a href="#processo-seletivo">
+      Processo seletivo
+    </a>
+  </li>
+  <li>
+    <a href="#cronograma">
+      Cronograma
+    </a>
+  </li>
+  <li>
+    <a href="#o-que-voce-vai-aprender">
+      O que você vai aprender?
+    </a>
+  </li>
+  <li>
+    <a href="#por-que-ser-um-desenvolvedor-web">
+      Por que ser um Desenvolvedor Web?
+    </a>
+    <ul>
+      <li>
+        <a href="#necessidade">
+          Necessidade
+        </a>
+      </li>
+      <li>
+        <a href="#benefícios">
+          Benefícios
+        </a>
+      </li>
+      <li>
+        <a href="#mercado">
+          Mercado
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#realização">
+      Realização
+    </a>
+  </li>
+</ul>
 
 ## Desenvolvendo o Futuro da Tecnologia no Ceará
 
@@ -196,7 +267,7 @@ O mercado de trabalho dos desenvolvedores web está em alta e tem potencial para
   <tr align="center">
     <td>
       <a href="https://iel-ce.org.br/">
-        <img src="./.github/logo-iel.png" alt="Logo IEL Ceará Escola de Gestão e Aceleração de Negócios" />
+        <img src="./.github/logo-iel.png" alt="Logo Instituto Euvaldo Lodi Ceará Escola de Gestão e Aceleração de Negócios" />
       </a>
     </td>
     <td>
