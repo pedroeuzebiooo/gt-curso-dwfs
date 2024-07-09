@@ -12,31 +12,6 @@ Para responder a essa pergunta, será necessário entender a estrutura de uma p�
 - Descrever a estrutura básica de uma página HTML5
 - Identificar e utilizar as principais tags HTML em um documento HTML5
 
-## Roteiro
-
-- [Dia 02 (12/06/2024)](#dia-02-12062024)
-  - [Roteiro](#roteiro)
-  - [Configurando a sua máquina](#configurando-a-sua-máquina)
-  - [Marcação de documentos HTML](#marcação-de-documentos-html)
-    - [Aula 02](#aula-02)
-    - [Anatomia de um documento HTML](#anatomia-de-um-documento-html)
-      - [Tags HTML](#tags-html)
-    - [Aula 03](#aula-03)
-    - [Aula 04](#aula-04)
-    - [Vamos consultar a documentação do MDN?](#vamos-consultar-a-documentação-do-mdn)
-  - [Como definir o título e os parágrafos de um texto](#como-definir-o-título-e-os-parágrafos-de-um-texto)
-    - [Utilizando as tags](#utilizando-as-tags)
-  - [Aula 05](#aula-05)
-    - [Inserir imagem](#inserir-imagem)
-    - [Listas ordenadas](#listas-ordenadas)
-    - [Listas não ordenadas](#listas-não-ordenadas)
-  - [Aula 06](#aula-06)
-    - [Comportamentos das tags](#comportamentos-das-tags)
-  - [Aula 07](#aula-07)
-    - [Sintaxe e semântica](#sintaxe-e-semântica)
-      - [Sintaxe do HTML](#sintaxe-do-html)
-    - [Semântica do HTML](#semântica-do-html)
-
 ## Configurando a sua máquina
 
 ## Marcação de documentos HTML
@@ -130,10 +105,6 @@ Um receptáculo para o conteúdo da página e sua representação estrutural. A 
 As tags `<html>`, `<head>`, `<body>` e `<title>` são as chamadas tags estruturais, que fornecem o esqueleto básico de um documento HTML. Em particular, elas informam o navegador web de que ele está lendo uma página HTML.
 
 Dentre esses elementos HTML, o único que é necessário para um documento HTML ser validado é a tag `<title>`.
-
-### Aula 03
-
-### Aula 04
 
 ### Vamos consultar a documentação do MDN?
 
