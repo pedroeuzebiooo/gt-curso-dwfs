@@ -32,3 +32,17 @@ Utilizando a referência abaixo vamos produzir mais uma página utilizando HTML 
 **BOA PRÁTICA!**
 
 ![Imagem](./img.png)
+
+## Resolução
+
+### Versão Mobile
+
+<p align="center">
+   <img src="./.github/preview-mobile.png" alt="preview mobile" width="300px">
+<p>
+
+### Versão Desktop
+
+<p>
+   <img src="./.github/preview-desktop.png" alt="preview desktop">
+<p>
