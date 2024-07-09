@@ -67,3 +67,17 @@
       </li>
   </li>
 </ol>
+
+## Resolução
+
+### Versão Mobile
+
+<p align="center">
+   <img src="./.github/preview-mobile.png" alt="preview mobile" width="300px">
+<p>
+
+### Versão Desktop
+
+<p>
+   <img src="./.github/preview-desktop.png" alt="preview desktop">
+<p>
