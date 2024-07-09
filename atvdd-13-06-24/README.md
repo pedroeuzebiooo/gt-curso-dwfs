@@ -30,3 +30,17 @@ Expandir a página web simples e semântica criada anteriormente, incorporando e
 - Personalizem o conteúdo e os estilos da página.
 - Testem os links de navegação para garantir que funcionem corretamente.
 - Experimentem outros atributos e elementos HTML para enriquecer a página.
+
+## Resolução
+
+### Versão Mobile
+
+<p align="center">
+   <img src="./.github/preview-mobile.png" alt="preview mobile" width="300px">
+<p>
+
+### Versão Desktop
+
+<p>
+   <img src="./.github/preview-desktop.png" alt="preview desktop">
+<p>
