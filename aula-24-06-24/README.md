@@ -121,8 +121,6 @@ Neste guia, você aprenderá a criar seu primeiro "Hello World" usando HTML e Ja
 
 Parabéns! Você criou e executou seu primeiro "Hello World" usando HTML e JavaScript no VSCode. Continue explorando e aprendendo mais sobre desenvolvimento web para criar projetos ainda mais incríveis.
 
-### Aula 01
-
 ### 1.3. Lógica de Programação
 
 #### Lógica de Programação
@@ -237,11 +235,9 @@ fetch("https://api.exemplo.com/dados")
   .catch((error) => console.error("Erro:", error));
 ```
 
-### Conclusão
+Conclusão
 
 Este guia apresenta os conceitos básicos de lógica de programação e sua aplicação em JavaScript, abordando algoritmos, variáveis, constantes, funções, estruturas condicionais, estruturas de repetição e requisições. Compreender e dominar esses conceitos é fundamental para o desenvolvimento de aplicações eficientes e funcionais.
-
-### Aula 02
 
 ### Variáveis e Constantes em JavaScript
 
@@ -385,8 +381,6 @@ Conclusão
 
 Entender variáveis, constantes e os tipos de dados em JavaScript é essencial para qualquer desenvolvedor. Variáveis permitem armazenar dados que podem mudar, enquanto constantes armazenam dados imutáveis. A sintaxe do JavaScript é flexível e poderosa, permitindo a criação de código eficiente e de fácil manutenção. Com o domínio desses conceitos, você estará bem equipado para enfrentar desafios de programação e desenvolver aplicações robustas.
 
-### Aula 03
-
 ### Lógica de Programação com Operações Aritméticas e Concatenação em JavaScript
 
 Introdução
@@ -454,9 +448,8 @@ Vamos criar um exemplo completo que envolve operações aritméticas, operaçõe
 ```
 
 Conclusão
-Neste guia, exploramos a lógica de programação em JavaScript, focando em operações aritméticas, operações entre números e strings, e concatenação. Entender como JavaScript lida com esses tipos de operações é essencial para escrever código eficiente e evitar erros comuns. Com os exemplos fornecidos, você deve estar bem equipado para aplicar esses conceitos em seus próprios projetos.
 
-### Aula 04
+Neste guia, exploramos a lógica de programação em JavaScript, focando em operações aritméticas, operações entre números e strings, e concatenação. Entender como JavaScript lida com esses tipos de operações é essencial para escrever código eficiente e evitar erros comuns. Com os exemplos fornecidos, você deve estar bem equipado para aplicar esses conceitos em seus próprios projetos.
 
 ### Estrutura Sequencial em JavaScript
 
@@ -550,6 +543,5 @@ console.log("Número: " + numero); // 100
 ```
 
 Conclusão
-A estrutura sequencial é fundamental para a programação. Utilizando prompt e console.log, podemos interagir com o usuário e depurar nosso código. Entender o console do navegador e como depurar erros é crucial para o desenvolvimento eficiente. Saber converter strings em números é uma habilidade útil que permite manipular dados de maneira mais flexível em JavaScript.
 
-### Aula 05
+A estrutura sequencial é fundamental para a programação. Utilizando prompt e console.log, podemos interagir com o usuário e depurar nosso código. Entender o console do navegador e como depurar erros é crucial para o desenvolvimento eficiente. Saber converter strings em números é uma habilidade útil que permite manipular dados de maneira mais flexível em JavaScript.
