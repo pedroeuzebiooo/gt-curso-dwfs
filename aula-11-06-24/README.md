@@ -12,34 +12,6 @@ Para responder a essa pergunta será necessário entender o que é a Web, como e
 - Definir os componentes de hardware e software que compõe a Web
 - Elencar as atividades que uma pessoa desenvolvedora Web realiza no dia a dia
 
-## Roteiro
-
-- [Dia 01 (11/06/2024)](#dia-01-11062024)
-  - [Roteiro](#roteiro)
-  - [Introdução ao Desenvolvimento](#introdução-ao-desenvolvimento)
-    - [A vida Pré-Internet](#a-vida-pré-internet)
-    - [Introdução ao TCP/IP](#introdução-ao-tcpip)
-    - [Configuração de Parâmetros TCP/IP em Redes de Computadores](#configuração-de-parâmetros-tcpip-em-redes-de-computadores)
-    - [Configuração Manual e DHCP](#configuração-manual-e-dhcp)
-      - [Verificação de Configurações TCP/IP no Windows](#verificação-de-configurações-tcpip-no-windows)
-  - [Noções básicas de HTTP](#noções-básicas-de-http)
-    - [Continuação](#continuação)
-    - [A solicitação do cliente](#a-solicitação-do-cliente)
-    - [Como o cliente lida com a URL](#como-o-cliente-lida-com-a-url)
-    - [A mensagem de solicitação](#a-mensagem-de-solicitação)
-    - [O cabeçalho de resposta](#o-cabeçalho-de-resposta)
-    - [Conteúdo estático e dinâmico](#conteúdo-estático-e-dinâmico)
-    - [Cache](#cache)
-    - [Sessões HTTP](#sessões-http)
-    - [Fechando o capítulo](#fechando-o-capítulo)
-  - [Arquitetura de aplicativos web](#arquitetura-de-aplicativos-web)
-    - [Clientes e servidores](#clientes-e-servidores)
-    - [O lado do cliente](#o-lado-do-cliente)
-    - [Variedades de clientes web](#variedades-de-clientes-web)
-    - [As linguagens de um cliente web](#as-linguagens-de-um-cliente-web)
-    - [Controlando os caminhos de solicitações](#controlando-os-caminhos-de-solicitações)
-  - [Desenvolvimento e tipos de sistemas](#desenvolvimento-e-tipos-de-sistemas)
-
 ## Introdução ao Desenvolvimento
 
 ### A vida Pré-Internet
