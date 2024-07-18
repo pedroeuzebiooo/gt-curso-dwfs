@@ -218,7 +218,7 @@ Aprenda HTML5, CSS3, Javascript, React, banco de dados e outras.
       <a href="https://react.dev/">
         <img src="https://skillicons.dev/icons?i=react" alt="Logo React" />
         <br>
-        React.js
+        React
       </a>
     </td>
     <td>
