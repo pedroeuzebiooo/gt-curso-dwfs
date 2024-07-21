@@ -4,13 +4,13 @@ Bom dia!!
 
 Hoje, vamos colocar em prática conceitos essenciais do CSS, focando principalmente no Box Model e nas propriedades de layout.
 
-## Layout e modelo de caixa CSS
+# Layout e modelo de caixa CSS
 
 Cada um dos elementos visíveis em um documento HTML é renderizado como uma caixa retangular. Assim, o termo modelo de caixa descreve o método usado pelo CSS para modificar as propriedades visuais dos elementos. Como caixas de tamanhos diferentes, os elementos HTML podem ser aninhados dentro de elementos contêiner — normalmente o elemento div — e em seguida separados em seções.
 
 Com o CSS, é possível modificar a posição das caixas, desde pequenos ajustes até mudanças drásticas na disposição dos elementos na página. Além do fluxo normal, a posição de cada caixa pode se basear nos elementos que a rodeiam, seja em seu relacionamento com o contêiner pai ou com a janela de visualização, que é a área da página visível para o usuário. Nenhum mecanismo atende a todos os requisitos de layout possíveis, então costuma ser necessário usar uma combinação deles.
 
-### Fluxo normal
+# Fluxo normal
 
 A forma padrão como o navegador renderiza a árvore do documento é chamada de fluxo normal. Os retângulos correspondentes aos elementos são postos mais ou menos na mesma ordem em que aparecem na árvore do documento em relação aos seus elementos pais. No entanto, dependendo do tipo de elemento, a caixa correspondente pode seguir regras de posicionamento distintas.
 
@@ -29,8 +29,6 @@ O resultado esperado no seu navegador é o que está ilustrado abaixo:
 A Figura mostra que cada tag HTML tem uma caixa correspondente no layout. Os elementos div, h2 e p se estendem até a largura do corpo, ao passo que o pai de cada elemento h2 e p é o div correspondente. As caixas que se estendem pela largura de seu elemento pai são chamadas elementos de bloco. Algumas das tags HTML mais comuns representadas como blocos são h1, h2, h3, p, ul, ol, table, li, div, section, form e aside. Elementos de bloco irmãos — ou seja, que compartilham o mesmo elemento pai imediato — são empilhados dentro do pai, de cima para baixo.
 
 OBS.: Alguns elementos de bloco não se destinam a ser usados como contêineres para outros elementos de bloco. É possível, por exemplo, inserir um elemento de bloco dentro de um elemento h1 ou p, mas isso não é muito aconselhável. Em vez disso, é melhor usar uma tag apropriada como contêiner. As tags de contêiner mais comuns são div, section e aside.
-
-### Continuação
 
 Além do texto em si, elementos como h1, p e li esperam conter apenas elementos de linha como filhos. Como a maioria dos modos de escrita ocidentais, os elementos de linha seguem o fluxo de texto da esquerda para a direita. Quando não há espaço restante no lado direito, o fluxo de elementos de linha continua na linha seguinte, assim como o texto. Algumas tags HTML comuns tratadas como caixas de linha são span, a, em, strong, img, input e label.
 
@@ -78,7 +76,7 @@ As margens esquerda e direita são calculadas automaticamente pelo navegador e a
 
 Como é fácil constatar, ao tornar um elemento de bloco mais estreito, não abrimos mais espaço para o elemento seguinte. O fluxo natural é preservado, como se o elemento mais estreito ainda ocupasse toda a largura disponível.
 
-## Personalizando o fluxo normal
+# Personalizando o fluxo normal
 
 O fluxo normal é simples e sequencial. O CSS também permite interromper o fluxo normal e posicionar elementos de maneiras bastante específicas, até mesmo neutralizando a rolagem da página, se desejado. Veremos várias maneiras de controlar o posicionamento dos elementos nesta seção.
 
@@ -104,7 +102,7 @@ Ao definir a propriedade clear como right, o elemento correspondente pula os ele
 
 Da mesma forma, se um elemento anterior estiver flutuando à esquerda, usamos clear: left para retomar o fluxo normal. Se for preciso pular elementos flutuantes à esquerda e à direita, usamos clear: both.
 
-### Posicionamento das caixas
+# Posicionamento das caixas
 
 No fluxo normal, cada caixa segue as caixas anteriores na árvore do documento. Os elementos irmãos anteriores “empurram” os elementos que vêm depois deles, movendo-os para a direita e para baixo dentro de seu elemento pai. O elemento pai pode ter seus próprios irmãos fazendo o mesmo com ele. É como colocar azulejos lado a lado em uma parede, começando pelo topo.
 
@@ -122,7 +120,7 @@ O elemento segue o fluxo normal do documento. No entanto, em vez de sair da jane
 
 Nos posicionamentos que aceitam as propriedades top, right, bottom e left, não é necessário usar todas elas. Se você definir as propriedades top e height de um elemento absoluto, por exemplo, o navegador calcula implicitamente a propriedade bottom (posição superior + altura = posição inferior).
 
-## A propriedade display
+# A propriedade display
 
 Se a ordem fornecida pelo fluxo normal não for um problema em seu design, mas você quiser alterar a forma como as caixas se alinham na página, modifique a propriedade display do elemento. A propriedade display pode inclusive fazer o elemento desaparecer completamente do documento renderizado, quando definida como display: none. Isso é útil quando desejamos exibir o elemento posteriormente usando JavaScript.
 
@@ -146,7 +144,7 @@ O resultado são os três elementos div internos renderizados lado a lado:
 
 O valor inline-flex em vez de flex daria basicamente o mesmo resultado, mas faria com que os filhos se comportassem mais como elementos de linha.
 
-## A propriedade visibility
+# A propriedade visibility
 
 A propriedade CSS de visibilidade pode mostrar ou ocultar um elemento sem afetar o layout de um documento (ou seja, o espaço é criado para elementos independentemente de serem visíveis ou não). A propriedade também pode ocultar linhas ou colunas em um `<table>`.
 
@@ -162,21 +160,19 @@ visibility: initial;
 visibility: unset;
 ```
 
-### Sintaxe
+# Sintaxe
 
 A propriedade é especificada como um dos valores das palavras-chave listadas abaixo.
 
-### Valores
-
-#### visible
+# visible
 
 A caixa do elemento está visível.
 
-#### hidden
+# hidden
 
 A caixa do elemento fica invisível (não desenhada), mas ainda afeta o layout normalmente. Os descendentes do elemento ficarão visíveis se tiverem sido visibility definidos como visible. O elemento não pode receber foco (como ao navegar pelos índices de guias ).
 
-#### collapse
+# collapse
 
 A collapse palavra-chave tem efeitos diferentes para elementos diferentes:
 
@@ -184,32 +180,26 @@ A collapse palavra-chave tem efeitos diferentes para elementos diferentes:
 - Os itens flexíveis recolhidos e as anotações Ruby são ocultados e o espaço que eles ocupariam é removido.
 - Para outros elementos, collapseé tratado da mesma forma que hidden.
 
-### Sintaxe normal
+# Sintaxe normal
 
 visibility =
 visible |
 hidden |
 collapse
 
-### Interpolação
+# Interpolação
 
 Os valores de visibilidade são interpoláveis ​​entre visível e não visível . Um dos valores iniciais ou finais deve, portanto, ser visible ou nenhuma interpolação poderá acontecer. O valor é interpolado como uma etapa discreta, onde os valores da função de temporização entre 0e 1mapeiam para visible outros valores da função de temporização (que ocorrem apenas no início/fim da transição ou como resultado de cubic-bezier() funções com valores y fora de [ 0, 1]) mapeia para o ponto final mais próximo.
 
-### Exemplo básico
-
-#### HTML
+# HTML
 
 ![propriedade-visible](./.github/propriedade-visible.png)
 
-#### CSS
+# CSS
 
 ![propriedade-visible-2](./.github/propriedade-visible-2.png)
 
-## Reforçando a sua prática de CSS
-
-### Hoje vamos treinar através de uma plataforma mundialmente conhecida: a W3Schools!
-
-### Passo a Passo para Usar a Plataforma W3Schools para Exercícios de CSS
+# Passo a Passo para Usar a Plataforma W3Schools para Exercícios de CSS
 
 1. Acesse o Site:
 
