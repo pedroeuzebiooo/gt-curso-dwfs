@@ -12,11 +12,7 @@ Para responder a essa pergunta será necessário entender o que é a Web, como e
 - Definir os componentes de hardware e software que compõe a Web
 - Elencar as atividades que uma pessoa desenvolvedora Web realiza no dia a dia
 
-## Introdução ao Desenvolvimento
-
-### A vida Pré-Internet
-
-### Introdução ao TCP/IP
+# Introdução ao TCP/IP
 
 Para que os computadores de uma rede possam trocar informações entre si é necessário que todos os computadores adotem as mesmas regras para o envio e o recebimento de informações. Este conjunto de regras é conhecido como Protocolo de comunicação. Falando de outra maneira podemos afirmar: “Para que os computadores de uma rede possam trocar informações entre si é necessário que todos estejam utilizando o mesmo protocolo de comunicação”.
 
@@ -31,7 +27,7 @@ Antes da popularização da Internet existiam diferentes protocolos sendo utiliz
 
 Se colocarmos dois computadores ligados em rede, um com um protocolo, por exemplo o TCP/IP e o outro com um protocolo diferente, por exemplo NETBEUI, estes dois computadores não serão capazes de estabelecer comunicação e trocar informações entre si. Por exemplo, o computador com o protocolo NETBEUI instalado, não será capaz de acessar uma pasta ou uma Impressora compartilhada no computador com o protocolo TCP/IP instalado.
 
-### Configuração de Parâmetros TCP/IP em Redes de Computadores
+# Configuração de Parâmetros TCP/IP em Redes de Computadores
 
 Ao utilizar o protocolo TCP/IP em uma rede de computadores, é essencial configurar certos parâmetros em todos os dispositivos da rede, como computadores, servidores, hubs, switches e impressoras de rede. Esses parâmetros incluem:
 
@@ -40,11 +36,11 @@ Ao utilizar o protocolo TCP/IP em uma rede de computadores, é essencial configu
    - **IP:** 10.200.150.1
    - **Máscara:** 255.255.255.0 Nesse caso, os três primeiros números identificam a rede (10.200.150) e o último identifica o dispositivo. Isso permite até 254 dispositivos na rede.
 
-### Configuração Manual e DHCP
+# Configuração Manual e DHCP
 
 A configuração manual de IPs, máscara de sub-rede, gateway e DNS é prática em pequenas redes, mas pode ser complicada em redes maiores. Nesse caso, é recomendável usar o serviço DHCP (Dynamic Host Configuration Protocol), que automatiza a atribuição desses parâmetros.
 
-#### Verificação de Configurações TCP/IP no Windows
+# Verificação de Configurações TCP/IP no Windows
 
 Para verificar as configurações TCP/IP no Windows:
 
@@ -54,7 +50,7 @@ Para verificar as configurações TCP/IP no Windows:
 
 Isso exibirá informações sobre as interfaces de rede e os parâmetros configurados, como IP, máscara de sub-rede, gateway e servidores DNS.
 
-## Noções básicas de HTTP
+# Noções básicas de HTTP
 
 O protocolo de transferência de hipertexto (HyperText Transfer Protocol ou HTTP) define a forma como um cliente solicita um recurso específico ao servidor. O princípio de funcionamento é bastante simples: o cliente cria uma mensagem de solicitação identificando o recurso de que necessita e encaminha essa mensagem para o servidor através da rede. Por sua vez, o servidor HTTP avalia de onde extrair o recurso solicitado e envia uma mensagem de resposta de volta ao cliente. A mensagem de resposta contém detalhes sobre o recurso solicitado, seguidos do recurso em si.
 
@@ -64,9 +60,7 @@ A parte da mensagem que define os detalhes do recurso e outras informações de 
 
 ![Mapa mental explicando noções básicas de HTTP](./.github/nocoes-basicas-de-http.png)
 
-### Continuação
-
-### A solicitação do cliente
+# A solicitação do cliente
 
 A primeira etapa de uma troca de dados HTTP entre o cliente e o servidor é iniciada pelo cliente, quando ele escreve uma mensagem de solicitação ao servidor. Vejamos, por exemplo, uma tarefa comum de um navegador: carregar uma página HTML de um servidor que hospeda um site, como [https://learning.lpi.org/pt/](https://learning.lpi.org/pt/). O endereço, ou URL, fornece diversas informações relevantes. Três informações aparecem neste exemplo específico:
 
@@ -78,7 +72,7 @@ A URL (Uniform Resource Locator) é um endereço que aponta para um recurso na i
 
 ![Mapa mental explicando o que é URL](./.github/url-e-seo.png)
 
-### Como o cliente lida com a URL
+# Como o cliente lida com a URL
 
 Antes de contatar o servidor, o cliente precisa converter learning.lpi.org\_ para o endereço IP correspondente. O cliente usa outro serviço de Internet, o Sistema de Nomes de Domínio (Domain Name System ou DNS), para solicitar o endereço IP de um nome de host a um ou mais servidores DNS predefinidos (em geral, os servidores DNS são definidos automaticamente pelo provedor).
 
@@ -90,7 +84,7 @@ O formato da mensagem de solicitação que o cliente envia ao servidor é o mesm
 
 O terceiro elemento da nossa URL, /pt/, será interpretado pelo servidor como a localização ou o caminho para o recurso que está sendo solicitado. Se o caminho não for fornecido na URL, o local padrão / será usado. A implementação mais simples de um servidor HTTP associa os caminhos nas URLs a arquivos no sistema de arquivos em que o servidor está sendo executado, mas esta é apenas uma das muitas opções disponíveis em servidores HTTP mais sofisticados.
 
-### A mensagem de solicitação
+# A mensagem de solicitação
 
 O HTTP opera através de uma conexão já estabelecida entre cliente e servidor, geralmente implementada em TCP e criptografada com TLS. Na verdade, uma vez que uma conexão que atenda aos requisitos impostos pelo servidor esteja pronta, uma solicitação HTTP digitada à mão em texto simples pode gerar a resposta do servidor. Na prática, porém, os programadores raramente precisam implementar rotinas para compor mensagens HTTP, pois a maioria das linguagens de programação fornece mecanismos que automatizam a criação dessas mensagens. No caso da URL de exemplo, [https://learning.lpi.org/pt/](https://learning.lpi.org/pt/), a mensagem de solicitação mais simples possível teria o seguinte conteúdo:
 
@@ -122,7 +116,7 @@ O campo Content-Length indica o tamanho em bytes da carga (corpo de dados) e o c
 
 Type indica seu formato. O formato multipart/form-data é o mais comumente usado em formulários HTML tradicionais que empregam o método POST. Nesse formato, cada campo inserido no corpo de dados da solicitação é separado pelo código indicado pela palavra-chave boundary. O método POST deve ser usado apenas quando apropriado, pois ele usa uma quantidade de dados um pouco maior do que uma solicitação equivalente feita com o método GET. Como o método GET envia os parâmetros diretamente no cabeçalho da mensagem de solicitação, a troca de dados total tem uma latência menor, pois não é necessária uma etapa de conexão adicional para transmitir o corpo da mensagem.
 
-### O cabeçalho de resposta
+# O cabeçalho de resposta
 
 Depois que o servidor HTTP recebe o cabeçalho da mensagem de solicitação, o servidor retorna uma mensagem de resposta ao cliente. Uma solicitação de arquivo HTML normalmente tem um cabeçalho de resposta semelhante a este:
 
@@ -184,7 +178,7 @@ O servidor, ao atuar como um gateway ou proxy, recebeu uma resposta inválida de
 
 Embora indiquem que não foi possível atender à solicitação, os códigos de status 4xx e 5xx pelo menos informam que o servidor HTTP está rodando e é capaz de receber solicitações. Os códigos 4xx requerem que uma ação seja realizada no lado do cliente, pois sua URL ou credenciais estão incorretos. Por sua vez, os códigos 5xx indicam algo errado no lado do servidor. Portanto, no contexto dos aplicativos web, essas duas classes de códigos de status indicam que a origem do erro está no próprio aplicativo, seja no cliente ou no servidor, e não na infraestrutura subjacente.
 
-### Conteúdo estático e dinâmico
+# Conteúdo estático e dinâmico
 
 Os servidores HTTP usam dois mecanismos básicos para atender ao conteúdo solicitado pelo cliente. O primeiro mecanismo fornece conteúdo estático: ou seja, o caminho indicado na mensagem de solicitação corresponde a um arquivo no sistema de arquivos local do servidor. O segundo mecanismo fornece conteúdo dinâmico: ou seja, o servidor HTTP encaminha a solicitação para outro programa — normalmente um script — para construir a resposta a partir de diversas fontes, como bancos de dados e outros arquivos.
 
@@ -196,7 +190,7 @@ A localização dos arquivos estáticos a serem servidos, por exemplo, é defini
 
 Qualquer que seja o servidor escolhido, os arquivos em /var/www/learning.lpi.org/ serão servidos via HTTP de maneira muito parecida. Alguns campos no cabeçalho da resposta e seus conteúdos podem variar entre os dois servidores, mas campos como Content-Type precisam estar presentes no cabeçalho da resposta e ser consistentes entre todos os servidores.
 
-### Cache
+# Cache
 
 O HTTP foi criado para funcionar em qualquer tipo de conexão à internet, seja ela rápida ou lenta. Além disso, a maioria das trocas HTTP tem de atravessar muitos nós de rede devido à arquitetura distribuída da internet. Como resultado, é importante adotar alguma estratégia de cache de conteúdo para evitar a transferência redundante de conteúdo baixado anteriormente. As transferências HTTP trabalham com dois tipos básicos de cache: compartilhada e privada.
 
@@ -212,7 +206,7 @@ A validade do recurso em cache pode ser avaliada de várias maneiras. O servidor
 
 Para verificar se um recurso armazenado em cache precisa ser atualizado, o cliente solicita apenas o cabeçalho de resposta do servidor. Se o campo ETag corresponder ao da versão armazenada localmente, o cliente reutiliza o conteúdo armazenado em cache. Caso contrário, o conteúdo atualizado do recurso é baixado do servidor.
 
-### Sessões HTTP
+# Sessões HTTP
 
 Em um site convencional ou aplicativo web, os recursos responsáveis pelo controle da sessão baseiam-se em cabeçalhos HTTP. O servidor não pode pressupor, por exemplo, que todas as solicitações provenientes do mesmo endereço IP vêm do mesmo cliente. O método mais tradicional que permite ao servidor associar diferentes solicitações a um único cliente é o uso de cookies, uma etiqueta de identificação fornecida ao cliente pelo servidor e incluída no cabeçalho HTTP.
 
@@ -230,15 +224,13 @@ Com esse número de identificação, o servidor pode recuperar definições espe
 
 Os cookies suscitam problemas de privacidade e potenciais falhas de segurança, já que existe a possibilidade de serem transferidos para outro cliente, que será identificado pelo servidor como sendo o cliente original. Os cookies usados para preservar sessões podem dar acesso a informações confidenciais do cliente original. Portanto, é imprescindível que os clientes adotem mecanismos de proteção local para evitar que seus cookies sejam extraídos e reutilizados sem autorização.
 
-### Fechando o capítulo
-
-## Arquitetura de aplicativos web
+# Arquitetura de aplicativos web
 
 A palavra aplicativo tem um amplo significado no jargão tecnológico. Quando o aplicativo é um programa tradicional, executado localmente e auto-suficiente em sua finalidade, tanto a interface operacional do aplicativo quanto os componentes de processamento de dados são integrados em um único “pacote”. Um aplicativo web é diferente porque adota o modelo cliente/servidor e sua parte cliente é baseada em HTML, obtido do servidor e, em geral, processado por um navegador.
 
 ![Mapa mental explicando arquitetura de aplicativos web](./.github/arquitetura-de-aplicativos-web.png)
 
-### Clientes e servidores
+# Clientes e servidores
 
 No modelo cliente/servidor, parte do trabalho é feito localmente no lado do cliente e parte do trabalho é feito remotamente, no lado do servidor. As tarefas realizadas por cada parte variam de acordo com a finalidade do aplicativo, mas em geral cabe ao cliente fornecer uma interface para o usuário e exibir o conteúdo de forma atraente. Cabe ao servidor executar a parte operacional do aplicativo, processando e respondendo às solicitações feitas pelo cliente. Em um aplicativo de compras, por exemplo, o aplicativo cliente apresenta uma interface para o usuário escolher e pagar pelos produtos, mas a fonte de dados e os registros da transação são mantidos no servidor remoto, acessado pela rede. Os aplicativos web realizam essa comunicação pela internet, geralmente por meio do Protocolo de Transferência de Hipertexto (HTTP).
 
@@ -252,7 +244,7 @@ Além de ser imprescindível para determinadas finalidades, a adoção do modelo
 
 Os desenvolvedores têm controle direto sobre o servidor; assim, eles também podem modificar o cliente fornecido por ele. Isso permite que os desenvolvedores aprimorem o aplicativo, em maior ou menor grau, sem que o usuário precise formalmente instalar novas versões.
 
-### O lado do cliente
+# O lado do cliente
 
 Um aplicativo web deve ser executado da mesma maneira em todos os navegadores mais populares, desde que o navegador esteja atualizado. Alguns navegadores podem ser incompatíveis com as inovações recentes, mas apenas os aplicativos experimentais usam recursos ainda não amplamente adotados.
 
@@ -264,7 +256,7 @@ Hoje, as diferenças entre os navegadores principais são mínimas e as incompat
 
 Como os desenvolvedores de navegadores se esforçaram muito para preservar a compatibilidade, o servidor normalmente não está vinculado a um único tipo de cliente. Em princípio, um servidor HTTP pode se comunicar com qualquer cliente que também seja capaz de se comunicar via HTTP. Em um aplicativo de mapa, por exemplo, o cliente pode ser um aplicativo móvel ou um navegador que carrega a interface HTML do servidor.
 
-### Variedades de clientes web
+# Variedades de clientes web
 
 Existem aplicativos móveis e de desktop cuja interface é renderizada a partir de HTML e, como os navegadores, podem usar JavaScript como linguagem de programação. Porém, ao contrário do cliente carregado no navegador, o HTML e os componentes necessários para o funcionamento de um cliente nativo estão presentes localmente desde a instalação do aplicativo. Na verdade, um aplicativo que funciona dessa maneira é praticamente idêntico a uma página HTML (é provável que ambos sejam renderizados pelo mesmo mecanismo). Existem também os aplicativos web progressivos (Progressive Web Apps ou PWA), um mecanismo que permite empacotar clientes de aplicativos web para uso offline — limitado a funções que não requerem comunicação imediata com o servidor. Em relação às captabilidades do aplicativo, não há diferença entre rodá-lo no navegador ou empacotado em um PWA; porém, neste último, o desenvolvedor tem mais controle sobre o que é armazenado localmente.
 
@@ -272,7 +264,7 @@ Renderizar interfaces HTML é uma atividade tão recorrente que o mecanismo é g
 
 Independentemente do método de fornecimento, os aplicativos escritos em HTML são executados em uma camada de abstração criada pelo mecanismo, que funciona como um ambiente de execução isolado. Em particular, no caso de um cliente que roda no navegador, o aplicativo tem à sua disposição apenas os recursos oferecidos pelo navegador. Recursos básicos, como a interação com elementos de página e solicitação de arquivos por HTTP, estão sempre disponíveis. Os recursos que podem conter informações confidenciais, como o acesso a arquivos locais, a localização geográfica, câmera e microfone, requerem uma autorização explícita do usuário antes que o aplicativo possa usá-los.
 
-### As linguagens de um cliente web
+# As linguagens de um cliente web
 
 O elemento central de um cliente de aplicativo web executado no servidor é o documento HTML. Além de apresentar de forma estruturada os elementos da interface exibidos pelo navegador, o documento HTML contém os endereços de todos os arquivos necessários para a apresentação e funcionamento corretos do cliente.
 
@@ -311,7 +303,7 @@ O paradigma Representational State Transfer (REST) é amplamente utilizado para 
 
 Os aplicativos desenvolvidos no modelo cliente/servidor estão sujeitos a instabilidades de comunicação. Por isso, o aplicativo cliente deve sempre adotar estratégias eficientes de transferência de dados para favorecer sua consistência e não prejudicar a experiência do usuário.
 
-### Controlando os caminhos de solicitações
+# Controlando os caminhos de solicitações
 
 Os servidores HTTP, como o Apache e o NGINX, costumam precisar de alterações específicas de configuração para atender às necessidades do aplicativo. Por padrão, os servidores HTTP tradicionais associam diretamente o caminho indicado na solicitação a um arquivo no sistema de arquivos local.
 
@@ -320,5 +312,3 @@ Se o servidor HTTP de um website mantiver seus arquivos HTML no diretório /srv/
 Como alternativa, existem frameworks (estruturas) que permitem integrar o gerenciamento das solicitações HTTP e a implementação do código do aplicativo em um só lugar, permitindo que o desenvolvedor se concentre mais na finalidade do aplicativo do que nos detalhes da plataforma. No Node.js Express, por exemplo, todo o mapeamento de solicitações e a programação correspondente são implementados usando JavaScript. Como a programação dos clientes geralmente é feita em JavaScript, muitos desenvolvedores consideram uma boa ideia, do ponto de vista da manutenção do código, usar a mesma linguagem para o cliente e o servidor. Outras linguagens comumente usadas para implementar o lado do servidor, seja em frameworks ou em servidores HTTP tradicionais, são PHP, Python, Ruby, Java e C#.
 
 ![Mapa mental explicando o caminho das solicitações](./.github/controlando-o-caminho-das-solicitacoes.png)
-
-## Desenvolvimento e tipos de sistemas
