@@ -6,7 +6,7 @@ Preparem-se para uma jornada prática e enriquecedora, onde cada conceito aprend
 
 Vamos começar essa jornada de aprendizado juntos!
 
-## Introdução ao CSS
+# Introdução ao CSS
 
 O HTML sozinho não tem muita versatilidade para construir interfaces mais elaboradas, nem recursos de programação de finalidade geral. Por esse motivo, um documento HTML que deve funcionar como um aplicativo cliente vem sempre acompanhado por um ou mais conjuntos de CSS e JavaScript.
 
@@ -14,7 +14,7 @@ O CSS pode ser fornecido como um arquivo separado ou diretamente no próprio arq
 
 Depois de criar algumas páginas HTML simples, você provavelmente percebeu que elas são feiosas quando comparadas às páginas bem projetadas que vemos comumente na Internet. Isso ocorre porque, no HTML moderno, o código de marcação destinado à estrutura e função dos elementos no documento (ou seja, o conteúdo semântico) é separado das regras que definem a aparência dos elementos (a apresentação). As regras de apresentação são escritas em uma linguagem diferente, chamada Cascading Style Sheets (CSS). Ela permite alterar quase todos os aspectos visuais do documento, como fontes, cores e o posicionamento dos elementos ao longo da página.
 
-### O CSS inline
+# O CSS inline
 
 O CSS inline é usado para dar estilo a um elemento HTML específico. Para este estilo de CSS você somente vai precisar adicionar o atributo style para cada tag HTML, sem usar os seletores.
 
@@ -24,7 +24,7 @@ Contudo, o CSS inline no HTML pode ser útil para algumas situações. Por exemp
 
 ![css-inline](./.github/css-inline.png)
 
-## O atributo style
+# O atributo style
 
 A maneira mais simples de modificar o estilo de um elemento específico é escrevê-lo diretamente na tag do elemento usando o atributo style. Todos os elementos HTML visíveis aceitam um atributo style, cujo valor pode ser uma ou mais regras de CSS, também conhecidas como propriedades. Vamos começar com um exemplo simples, um elemento de parágrafo:
 
@@ -44,13 +44,13 @@ Para ver o resultado dessas alterações, salve o HTML a seguir em um arquivo e 
 
 ![atributo-style-exemplo](./.github/atributo-style-exemplo.png)
 
-## Regras de CSS
+# Regras de CSS
 
 Em vez de estilizar os elementos diretamente nos atributos style de cada um deles, é muito mais prático informar ao navegador sobre a coleção inteira de elementos aos quais o estilo personalizado se aplica. Para isso, adicionamos um seletor às propriedades personalizadas, combinando elementos por tipo, classe, ID único, posição relativa etc. A combinação de um seletor com as propriedades personalizadas correspondentes — o que também chamamos de declarações — constitui uma regra de CSS. A sintaxe básica de uma regra de CSS é selector { property: value }. Como no caso do atributo style, propriedades separadas por ponto e vírgula podem ser agrupadas, como em p { color:purple; font-size: larger }. Essa regra pega todos os elementos p da página e aplica as propriedades personalizadas color e font-size.
 
 Uma regra de CSS para um elemento pai abarcará automaticamente todos os seus elementos filhos. Assim, podemos aplicar propriedades personalizadas a todo o texto da página, independentemente de ele estar dentro ou fora de uma tag <p>, usando o seletor body: body { color: purple; font-size: larger }. Essa estratégia nos livra de precisar escrever a mesma regra novamente para todos os elementos filhos, embora possa ser necessário escrever regras adicionais para “desfazer” ou modificar as regras herdadas.
 
-### A tag style
+# A tag style
 
 A tag `<style>` permite escrever regras de CSS dentro da página HTML que queremos estilizar. Ela permite ao navegador diferenciar o código CSS do código HTML. A tag `<style>` entra na seção head do documento:
 
@@ -72,7 +72,7 @@ As declarações em linhas separadas também ajudam quando precisamos comentar u
 
 ![p-3](./.github/p-3.png)
 
-## CSS em arquivos externos
+# CSS em arquivos externos
 
 O método mais usado para associar definições CSS a um documento HTML é armazenar o CSS em um arquivo separado. Este método oferece duas vantagens principais sobre os anteriores:
 
@@ -86,7 +86,7 @@ A tag HTML `<link>` define uma folha de estilo externa a ser usada no documento 
 
 ![css-em-arquivos-externos](./.github/css-em-arquivos-externos.png)
 
-## Estilos de página inteira
+# Estilos de página inteira
 
 Uma das vantagens de se usar CSS é não precisar escrever regras individuais para elementos que compartilham o mesmo estilo. Um asterisco aplica a regra a todos os elementos da página web, como mostrado no exemplo a seguir:
 
@@ -114,15 +114,13 @@ A ordem em que as regras aparecem na folha de estilo afeta a forma como são apl
 
 É preciso usar com cautela as regras !Important, pois elas quebram a cascata natural da folha de estilo e tornam mais difícil encontrar e corrigir problemas no arquivo CSS.
 
-## Seletores restritivos
+# Seletores restritivos
 
 Vimos que é possível alterar certas propriedades herdadas usando seletores correspondentes a tags específicas. No entanto, é comum precisarmos usar estilos distintos em elementos do mesmo tipo.
 
 Podemos incorporar atributos de tags HTML aos seletores para restringir o conjunto de elementos aos quais eles se referem. Suponha que a página HTML em que você está trabalhando tem dois tipos de listas não ordenadas `<ul>`: um deles é usado no topo da página como um menu para as seções do site e o outro em listas convencionais no corpo do texto:
 
 ![seletores-restritivos](./.github/seletores-restritivos.png)
-
-### Continuação
 
 Por padrão, aparece um círculo preto à esquerda de cada item da lista. Queremos remover os círculos da lista do menu superior, mas preservar os círculos na outra lista. No entanto, se simplesmente usarmos o seletor li, os círculos na lista que está na seção do corpo do texto também serão removidos. É necessário pedir ao navegador para modificar apenas os itens de uma lista, mas não da outra.
 
@@ -146,8 +144,6 @@ No entanto, o elemento div não está diretamente relacionado às listas em HTML
 
 ![seletores-restritivos-4](./.github/seletores-restritivos-4.png)
 
-### Continuação Parte 2
-
 O seletor #content ul é chamado de seletor descendente porque corresponde apenas aos elementos ul que são filhos do elemento cujo ID é content. Podemos usar tantos níveis de descendência quantos forem necessários. Por exemplo, #content ul li corresponderia apenas aos elementos li descendentes dos elementos ul, que por sua vez são descendentes do elemento cujo ID é content. Mas, neste exemplo, o seletor mais longo terá o mesmo efeito que #content ul, já que os elementos li herdam as propriedades CSS definidas para seu ul pai. Os seletores descendentes se tornam uma técnica essencial à medida que o layout da página cresce em complexidade.
 
 Digamos que agora você deseja alterar a propriedade font-style dos itens da lista topmenu e da lista no div de rodapé para torná-los oblíquos. Não é possível simplesmente escrever uma regra de CSS usando ul como seletor, porque isso também vai alterar os itens da lista no div de conteúdo. Até agora, modificamos as propriedades CSS usando um seletor por vez, e esse método também pode ser usado para esta tarefa:
@@ -160,7 +156,7 @@ No entanto, os seletores separados não são a única maneira de fazer isso. O C
 
 O agrupamento de seletores elimina o trabalho extra de escrever estilos duplicados. Além disso, você pode querer alterar a propriedade novamente no futuro e talvez não se lembre de alterá-la em todos os lugares diferentes.
 
-## Classes
+# Classes
 
 Se não quiser se preocupar muito com a hierarquia de elementos, você pode simplesmente adicionar uma class ao conjunto de elementos que deseja personalizar. As classes são semelhantes aos IDs, mas em vez de identificar um único elemento na página, elas identificam um grupo de elementos que compartilham as mesmas características.
 
@@ -192,11 +188,11 @@ Quando o atributo class possui mais de uma classe, elas devem ser separadas por 
 
 Esteja ciente de que .menu.top é diferente de .menu .top (com um espaço entre as palavras). O primeiro seletor afetará os elementos que têm ambas as classes menu e top, enquanto o segundo afeta os elementos que têm a classe top e um elemento pai com a classe menu.
 
-## Valores de unidade
+# Valores de unidade
 
 Os tamanhos e distâncias em CSS podem ser definidos de diferentes maneiras. As unidades absolutas são baseadas em um número fixo de pixels da tela e, portanto, não são tão diferentes dos tamanhos e dimensões fixos usados na mídia impressa. Existem também unidades relativas, que são calculadas dinamicamente a partir de alguma medida fornecida pela mídia onde a página está sendo exibida, como o espaço disponível ou outro tamanho escrito em unidades absolutas.
 
-### Unidades absolutas
+# Unidades absolutas
 
 As unidades absolutas são equivalentes às suas correspondentes físicas, como centímetros ou polegadas. Nos monitores convencionais, uma polegada tem 96 pixels de largura. As seguintes unidades absolutas são comumente usadas:
 
@@ -222,7 +218,7 @@ pt (ponto)
 
 Lembre-se de que a proporção de pixels por polegada pode variar. Nas telas de alta resolução, onde os pixels são compactados com mais densidade, uma polegada corresponderá a mais de 96 pixels.
 
-### Unidades relativas
+# Unidades relativas
 
 As unidades relativas variam de acordo com as outras medidas ou com as dimensões da janela de visualização. A janela de visualização é a área do documento atualmente visível em sua janela. No modo de tela inteira, a janela de visualização corresponde à tela do dispositivo. As seguintes unidades relativas são comumente usadas:
 
@@ -248,7 +244,7 @@ vh
 
 A vantagem de se usar unidades relativas é poder criar layouts ajustáveis alterando apenas alguns tamanhos determinados. Por exemplo, podemos usar a unidade pt para definir o tamanho da fonte no elemento do corpo e a unidade rem para as fontes dos outros elementos. Depois de alterar o tamanho da fonte do corpo, todos os outros tamanhos de fonte serão ajustados a partir dali. Além disso, o uso de vw e vh para definir as dimensões das seções da página as torna ajustáveis para telas de tamanhos diferentes.
 
-### Propriedades das fontes e do texto
+# Propriedades das fontes e do texto
 
 A tipografia, ou o estudo dos tipos de fonte, é um assunto muito amplo dentro do design, e a tipografia CSS não fica para trás. No entanto, existem algumas propriedades básicas de fonte que atenderão às necessidades da maioria dos usuários que estão aprendendo CSS.
 
@@ -290,6 +286,6 @@ Ao revisar o conteúdo, alguns autores gostam de riscar as partes incorretas ou 
 
 ![propriedades-das-fontes-textos-6](./.github/propriedades-das-fontes-textos-6.png)
 
-### Google Fonts
+# Google Fonts
 
 Documentação Oficial do Google Fonts: [https://developers.google.com/fonts/docs/css2?hl=pt-br](https://developers.google.com/fonts/docs/css2?hl=pt-br)
