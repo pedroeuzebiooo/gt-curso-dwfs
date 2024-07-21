@@ -2,7 +2,7 @@
 
 Hoje, vamos continuar nossa jornada pelo mundo do desenvolvimento web, explorando os poderosos recursos do CSS Flexbox. Este é um passo importante para vocês se tornarem desenvolvedores web proficientes, capazes de criar layouts modernos e responsivos com facilidade
 
-## Propriedades CSS Adicionais
+# Propriedades CSS Adicionais
 
 Além das propriedades básicas que vimos anteriormente, o CSS oferece uma ampla gama de propriedades para estilizar e manipular o layout dos elementos HTML.
 
@@ -19,7 +19,7 @@ Aqui estão algumas propriedades CSS que vimos e mais algumas adicionais e suas 
 - box-shadow: Adiciona sombras às caixas dos elementos.
   -text-shadow: Adiciona sombras ao texto.
 
-## Conceitos básicos de flexbox
+# Conceitos básicos de flexbox
 
 O Flexible Box Module, geralmente chamado de flexbox, foi projetado tanto como um modelo de layout unidimensional quanto como um método capaz de organizar espacialmente os elementos em uma interface, além de possuir capacidades avançadas de alinhamento. Vamos aprender as principais funcionalidades do flexbox, as quais exploraremos com mais detalhes no restante deste guia.
 
@@ -27,7 +27,7 @@ Quando se descreve o flexbox como sendo unidimensional, enfatiza-se o fato de qu
 
 Ao se utilizar o flexbox, é preciso ter em mente que todas as operações realizadas relacionam-se a dois eixos: o eixo principal e o eixo transversal. O eixo principal é definido através da propriedade flex-direction e o eixo transversal encontra-se na direção perpendicular a ele. Como esses eixos são as engrenagens fundamentais do flexbox é necessário compreender minuciosamente o seu funcionamento.
 
-### Eixo principal
+# Eixo principal
 
 Conforme descrito acima, a propriedade `flex-direction` define a direção do eixo principal e pode tem quatro valores possíveis:
 
@@ -42,7 +42,7 @@ Se o eixo principal for definido nas colunas, como `column` ou `column-reverse`,
 
 Compreender a diferença entre os eixos principal e perpendicular é o que importa quando começamos a observar o alinhamento ou justificação dos itens flexíveis (flex items); o flexbox possui propriedades que alinham e justificam o conteúdo ao longo de um eixo ou de outro.
 
-### Sintaxe
+# Sintaxe
 
 A propriedade CSS `display` é especificada usando valores de palavra-chave.
 
@@ -84,15 +84,13 @@ display: revert-layer;
 display: unset;
 ```
 
-## Flex Container
+# Flex Container
 
 O `display: flex` funciona de uma maneira única comparado a outros tipos de display. Quando aplicamos essa propriedade a um elemento, ele se transforma em um flex container. A partir desse ponto, podemos manipular todos os elementos filhos desse container com novas propriedades específicas do Flexbox. Essas propriedades são aplicadas diretamente no elemento que é o flex container.
 
 Por padrão, quando utilizamos `display: flex` em um elemento, todos os seus filhos são alinhados lado a lado, de maneira semelhante ao comportamento de elementos com `display: inline`.
 
-### Propriedades de um Flex Container
-
-#### `justify-content`
+# `justify-content`
 
 Essa propriedade alinha os elementos filhos horizontalmente dentro do flex container.
 
@@ -103,7 +101,7 @@ Essa propriedade alinha os elementos filhos horizontalmente dentro do flex conta
 - `space-around`: Cada elemento tem um espaçamento igual ao redor de si. Isso significa que o primeiro elemento terá um espaçamento maior à direita do que à esquerda, somando com o espaçamento à esquerda do segundo elemento.
 - `space-evenly`: Resolve o "problema" do valor anterior. Os elementos têm um espaçamento igual em ambos os lados.
 
-#### align-items
+# align-items
 
 Essa propriedade alinha os elementos filhos verticalmente dentro do flex container.
 
@@ -113,7 +111,7 @@ Essa propriedade alinha os elementos filhos verticalmente dentro do flex contain
 - `center:` Os elementos são centralizados verticalmente no flex container.
 - `baseline:` Os elementos são alinhados com a linha base do conteúdo textual de cada um.
 
-#### flex-wrap
+# flex-wrap
 
 Essa propriedade controla a quebra de linha dos elementos filhos dentro do flex container.
 
@@ -121,7 +119,7 @@ Essa propriedade controla a quebra de linha dos elementos filhos dentro do flex 
 - `wrap:` Os elementos que não cabem mais na linha atual são movidos para a linha seguinte.
 - `wrap-reverse:` Os elementos que não cabem mais na linha atual são movidos para a linha acima.
 
-## Funcionamento e construção
+# Funcionamento e construção
 
 Para adicionar o Flexbox no seu projeto, é necessário definir a propriedade display: flex dentro de um seletor, que pode ser chamado de container. Este será o elemento pai e todos os seus elementos filhos serão itens flexíveis.
 
@@ -156,7 +154,7 @@ E da seguinte forma no seu arquivo HTML:
 </html>
 ```
 
-### Explicação do Código
+# Explicação do Código
 
 - HTML: Criamos uma estrutura básica com uma div com a classe container que contém cinco div filhos com a classe item.
 
@@ -164,15 +162,13 @@ E da seguinte forma no seu arquivo HTML:
   - body: Definimos o body como um flex container para centralizar o .container tanto horizontalmente (justify-content: center) quanto verticalmente (align-items: center).
   - .container: Aplicamos display: flex ao container, permitindo que os elementos filhos se alinhem de acordo com as propriedades do Flexbox.
 
-### Continuação
-
 Temos que saber que teremos propriedades CSS para trabalhar com o elemento que possui nossos itens (container ou elemento pai) e propriedades para os nossos itens (elementos filhos).
 
-## Justify-content
+# Justify-content
 
 O justify-content é uma propriedade que alinha os itens de um container com base no eixo principal. São possíveis posições: flex-start, flex-end, center, space-between, space-around e space-evenly.
 
-### Valores da Propriedade justify-content
+# Valores da Propriedade justify-content
 
 Aqui estão os valores possíveis para a propriedade justify-content e uma explicação detalhada de cada um:
 
@@ -212,11 +208,11 @@ Aqui estão os valores possíveis para a propriedade justify-content e uma expli
   - Comportamento: Todos os espaços entre os itens, bem como antes do primeiro item e depois do último item, são iguais.
   - Uso: Excelente para garantir um espaçamento absolutamente uniforme em todo o contêiner.
 
-### Exemplos Visuais
+# Exemplos Visuais
 
 Para facilitar a compreensão, vejamos exemplos visuais de como `justify-content` afeta o layout dos itens em um contêiner flexível.
 
-#### HTML de Base
+# HTML de Base
 
 ```html
 <!DOCTYPE html>
@@ -237,7 +233,7 @@ Para facilitar a compreensão, vejamos exemplos visuais de como `justify-content
 </html>
 ```
 
-#### CSS para Demonstração
+# CSS para Demonstração
 
 ```css
 body {
@@ -293,17 +289,17 @@ body {
 }
 ```
 
-#### Modificações no HTML para Demonstração de Cada Valor
+# Modificações no HTML para Demonstração de Cada Valor
 
 Para ver os diferentes comportamentos, você pode alterar a classe do contêiner para justify-start, justify-end, justify-center, justify-space-between, justify-space-around, ou justify-space-evenly.
 
 A propriedade justify-content é fundamental para controlar o espaçamento e alinhamento dos itens dentro de um contêiner flexível ao longo do eixo principal. Compreender como cada valor funciona permite criar layouts flexíveis e responsivos que se adaptam às necessidades de design e usabilidade do projeto.
 
-## Align-items
+# Align-items
 
 O align-items funciona semelhante ao justify-content, porém define a disposição dos itens flexíveis ao longo do eixo transversal, em vez do eixo principal, como o justify content. Os valores possíveis são: stretch, flex-end, flex-start, center e baseline.
 
-### Valores
+# Valores
 
 Aqui estão os valores possíveis para a propriedade align-items e uma explicação detalhada de cada um:
 
@@ -337,11 +333,11 @@ Aqui estão os valores possíveis para a propriedade align-items e uma explicaç
   - Comportamento: Os itens são alinhados de forma que suas linhas de base (baseline) se alinhem. Isso é particularmente útil quando os itens contêm texto de diferentes tamanhos.
   - Uso: Excelente para garantir que o texto dentro dos itens esteja alinhado.
 
-### Exemplos
+# Exemplos
 
 Para facilitar a compreensão, vejamos exemplos visuais de como align-items afeta o layout dos itens em um contêiner flexível.
 
-#### HTML de Base
+# HTML de Base
 
 ```html
 <!DOCTYPE html>
@@ -362,7 +358,7 @@ Para facilitar a compreensão, vejamos exemplos visuais de como align-items afet
 </html>
 ```
 
-#### CSS para Demonstração
+# CSS para Demonstração
 
 ```css
 body {
@@ -420,11 +416,11 @@ body {
 }
 ```
 
-#### Modificações no HTML para Demonstração de Cada Valor
+# Modificações no HTML para Demonstração de Cada Valor
 
 Para ver os diferentes comportamentos, você pode alterar a classe do contêiner para align-start, align-end, align-center, align-stretch, ou align-baseline.
 
-#### Explicação dos Exemplos
+# Explicação dos Exemplos
 
 - .container: A configuração flex-direction: column é usada para alinhar os itens ao longo do eixo vertical. O contêiner é dado uma altura fixa para demonstrar o efeito de align-items.
 
