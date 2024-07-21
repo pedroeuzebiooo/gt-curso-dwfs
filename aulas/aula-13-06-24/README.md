@@ -12,7 +12,7 @@ Para responder a essa pergunta, será necessário entender a anatomia de um docu
 - Descrever a estrutura básica de um documento HTML
 - Identificar e utilizar as principais tags HTML em um documento HTML
 
-## Tags HTML
+# Tags HTML
 
 Definição de Tags HTML
 
@@ -141,7 +141,7 @@ Tags Semânticas
 
 Essa lista cobre as principais tags HTML utilizadas na criação de páginas web. Cada uma dessas tags possui atributos específicos que podem ser utilizados para definir suas propriedades e comportamentos.
 
-## O elemento header
+# O elemento header
 
 O elemento `<header>` (cabeçalho) contém informações introdutórias ao elemento semântico circundante dentro de um documento HTML. Um cabeçalho é diferente de um título, mas um cabeçalho geralmente inclui um elemento de título (`<h1>`, … , `<h6>`).
 
@@ -155,7 +155,7 @@ Por exemplo, para adicionar um cabeçalho ao nosso documento de exemplo, podemos
 
 Não haverá mudanças visíveis no documento HTML, já que `<h1>` (como todos os outros elementos de título) é um elemento de nível de bloco sem outras propriedades visuais.
 
-## O elemento nav
+# O elemento nav
 
 O elemento `<nav>` descreve uma unidade de navegação importante, como um menu, que contém uma série de hiperlinks.
 
@@ -171,7 +171,7 @@ Notas de utilização da Documentação Mozilla (MDN):
 - Um documento pode ter vários elementos `<nav>`, por exemplo, um para navegação no site e outro para navegação dentro da página.
 - Agentes de usuário, como leitores de tela para usuários deficientes, podem utilizar este elemento para determinar se a renderização inicial do conteúdo do mesmo deve ser omitida.
 
-## Âncoras
+# Âncoras
 
 O elemento de página comumente chamado de link da web também é conhecido pelo termo técnico âncora (anchor), o que explica o uso da tag `<a>`. A âncora leva a outro local, que pode ser qualquer endereço compatível com o navegador. A localização é indicada pelo atributo href (hyperlink reference):
 
@@ -195,8 +195,6 @@ O uso mais comum das âncoras é carregar outros documentos da web. Por padrão,
 
 ![a-3](./.github/a-3.png)
 
-### Continuação
-
 O destino \_self é o padrão quando o atributo target não é fornecido. Ele faz com que o documento referenciado substitua o documento atual.
 
 Outros tipos de destinos estão relacionados ao elemento `<iframe>`. Para carregar um documento referenciado dentro de um elemento `<iframe>`, o atributo target deve apontar para o nome do elemento iframe:
@@ -209,7 +207,7 @@ O elemento iframe funciona como uma janela distinta do navegador e, portanto, qu
 
 Os documentos HTML suportam vários níveis de aninhamento com a tag `<iframe>`. O destino \_top, quando usado em uma âncora dentro de um documento aninhado, fará com que o local referenciado substitua o documento principal na janela do navegador, independentemente de ele ser o pai imediato do `<iframe>` ou um ancestral mais distante.
 
-## Áudio e vídeo
+# Áudio e vídeo
 
 Podemos adicionar conteúdos de áudio e vídeo a um documento HTML mais ou menos da mesma maneira que as imagens. Sem surpresa, a tag para adicionar áudio é `<audio>` e a tag para adicionar vídeo é `<video>`. Obviamente, os navegadores em modo texto não são capazes de reproduzir conteúdo multimídia, de forma que as tags `<audio>` e `<video>` empregam uma tag de fechamento para conter o texto usado como explicação para o elemento que não pôde ser mostrado. Por exemplo:
 
@@ -219,7 +217,7 @@ Se o navegador não suportar a tag `<audio>`, a linha “Unable to play recordin
 
 O atributo src das tags `<audio>` e `<video>` funcionam da mesma forma que em `<img>`, mas ele também aceita URLs apontando para uma transmissão ao vivo. O navegador cuida de armazenar em buffer, decodificar e exibir o conteúdo conforme ele é recebido. O atributo controls exibe os controles de reprodução. Sem ele, o visitante não poderá pausar, retroceder ou controlar a reprodução de qualquer outra maneira.
 
-## O atributo style
+# O atributo style
 
 A maneira mais simples de modificar o estilo de um elemento específico é escrevê-lo diretamente na tag do elemento usando o atributo style. Todos os elementos HTML visíveis aceitam um atributo style, cujo valor pode ser uma ou mais regras de CSS, também conhecidas como propriedades. Vamos começar com um exemplo simples, um elemento de parágrafo:
 
@@ -254,8 +252,6 @@ Para ver o resultado dessas alterações, salve o HTML a seguir em um arquivo e 
   </body>
 </html>
 ```
-
-### Parte 02
 
 Fez o arquivo anterior? O resultado esperado no seu navegador é conforme a imagem abaixo:
 
