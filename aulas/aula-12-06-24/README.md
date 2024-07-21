@@ -12,9 +12,7 @@ Para responder a essa pergunta, será necessário entender a estrutura de uma p�
 - Descrever a estrutura básica de uma página HTML5
 - Identificar e utilizar as principais tags HTML em um documento HTML5
 
-## Configurando a sua máquina
-
-## Marcação de documentos HTML
+# Marcação de documentos HTML
 
 O HTML (HyperText Markup Language) é uma linguagem de marcação que informa aos navegadores como estruturar e exibir as páginas web. A versão atual é a 5.0, lançada em 2012. A sintaxe HTML é definida pelo World Wide Web Consortium (W3C).
 
@@ -26,9 +24,7 @@ HTML é uma abreviação de Hypertext Markup Language, ou seja, Linguagem de Mar
 
 Os elementos em “nível de bloco” ocupam todo o espaço do seu elemento pai (container).
 
-### Aula 02
-
-### Anatomia de um documento HTML
+# Anatomia de um documento HTML
 
 Uma página HTML básica tem a seguinte estrutura:
 
@@ -68,7 +64,7 @@ A estrutura básica de um documento HTML é composta por uma série de elementos
 
 Entender a anatomia de um documento HTML é essencial para criar páginas web bem estruturadas e semânticas, facilitando a manutenção e a acessibilidade do conteúdo.
 
-#### Tags HTML
+# Tags HTML
 
 O HTML usa elementos e tags para descrever e formatar o conteúdo. As tags consistem em parênteses angulares ao redor do nome da tag, por exemplo `<title>`. O nome da tag não faz distinção entre maiúsculas e minúsculas, embora o World Wide Web Consortium (W3C) recomende o uso de minúsculas nas versões atuais do HTML. Essas tags HTML são usadas para construir elementos HTML. A tag `<title>` é um exemplo de tag de abertura de um elemento HTML que define o título de um documento HTML. No entanto, um elemento possui dois outros componentes. Um elemento `<title>` completo seria parecido com este:
 
@@ -106,11 +102,11 @@ As tags `<html>`, `<head>`, `<body>` e `<title>` são as chamadas tags estrutura
 
 Dentre esses elementos HTML, o único que é necessário para um documento HTML ser validado é a tag `<title>`.
 
-### Vamos consultar a documentação do MDN?
+# Vamos consultar a documentação do MDN?
 
 Documentação Oficial da Mozilla: [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-## Como definir o título e os parágrafos de um texto
+# Como definir o título e os parágrafos de um texto
 
 Títulos, subtítulos e parágrafos em HTML são elementos extremamente comuns em quase todos os sites. O bom uso deste elementos de textos podem trazer resultados positivos para a navegação no site e a apresentação dos seu documento HTML
 
@@ -120,7 +116,7 @@ Quando utilizamos títulos e subtítulos, podemos usar o `<hgroup>`, esse elemen
 
 ![hgroup](./.github/hgroup.png)
 
-### Utilizando as tags
+# Utilizando as tags
 
 A tag H1 é usada para determinar o título da página. Conceitualmente existem 6 níveis de títulos sendo o h1 o mais alto de todos, ou seja, ele deve ser usado para indicar o texto mais importante da página.
 
@@ -139,9 +135,7 @@ Exemplo de um documento com três parágrafos:
 
 ![Exemplo de documento com três paragráfos](./.github/exemplo-de-documento-com-tres-paragrafos.png)
 
-## Aula 05
-
-### Inserir imagem
+# Inserir imagem
 
 O elemento HTML `<img>` (or HTML Image Element) representa a inserção de imagem no documento, sendo implementado também pelo HTML5 para uma melhor experiência com o elemento `<figure>` e `<figcaption>`.
 
@@ -151,7 +145,7 @@ Exemplo:
 
 **Atributo SRC:** URL da imagem, este atributo é obrigatório para o `<img>` elemento. Em navegadores que suportam srcset , src é ignorado se este for fornecido.
 
-### Listas ordenadas
+# Listas ordenadas
 
 Uma lista ordenada em HTML, definida pelo elemento `<ol>`, é uma coleção organizada de itens de lista. O que torna este elemento especial é que a ordem dos itens é relevante. Para enfatizar o fato, os navegadores web exibem números por padrão antes dos elementos filho da lista.
 
@@ -165,7 +159,7 @@ Em um navegador web, esse código HTML produz o resultado mostrado:
 
 ![ol no navegador](./.github/ol-no-navegador.jpg)
 
-### Listas não ordenadas
+# Listas não ordenadas
 
 Uma lista não ordenada contém uma série de itens de lista que, ao contrário daqueles em uma lista ordenada, não têm uma ordem ou sequência especial. O elemento HTML para esse tipo de lista é `<ul>`. Também neste caso, `<li>` é o elemento HTML que demarca os itens de lista.
 
@@ -181,9 +175,7 @@ Em um navegador da web, esse código HTML produz o resultado mostrado:
 
 Por padrão, cada item da lista é representado por um marcador circular. É possível alterar a aparência do marcador usando CSS, o que será discutido em lições posteriores.
 
-## Aula 06
-
-### Comportamentos das tags
+# Comportamentos das tags
 
 No desenvolvimento web, as tags HTML são classificadas em dois tipos principais: **inline** e **block**. As tags inline são elementos que não iniciam uma nova linha e ocupam apenas o espaço necessário para o seu conteúdo. Elas são usadas principalmente para estilizar partes de texto dentro de um parágrafo ou outro elemento.
 
@@ -202,11 +194,7 @@ Outras tags inline com comportamentos padrões incluem:
 
 As tags inline são fundamentais para estilizar e formatar textos de maneira precisa sem interromper o fluxo normal do conteúdo. Elas permitem aos desenvolvedores aplicar estilos e funcionalidades a partes específicas de um documento HTML, garantindo flexibilidade e controle sobre a aparência e comportamento do conteúdo web.
 
-## Aula 07
-
-### Sintaxe e semântica
-
-#### Sintaxe do HTML
+# Sintaxe do HTML
 
 A **sintaxe** do HTML refere-se às regras e estrutura que definem como o código HTML deve ser escrito. A sintaxe correta é essencial para garantir que os navegadores possam interpretar e renderizar o conteúdo da página de maneira correta. Aqui estão alguns dos princípios básicos da sintaxe HTML:
 
@@ -230,7 +218,7 @@ A **sintaxe** do HTML refere-se às regras e estrutura que definem como o códig
 
 ![comentario](./.github/comentario.png)
 
-### Semântica do HTML
+# Semântica do HTML
 
 A **semântica** do HTML refere-se ao significado e propósito dos elementos HTML. Utilizar tags semânticas ajuda a melhorar a acessibilidade, SEO (Search Engine Optimization) e a clareza do código. Tags semânticas são aquelas que descrevem claramente o conteúdo que elas envolvem. Aqui estão alguns exemplos de elementos semânticos:
 
