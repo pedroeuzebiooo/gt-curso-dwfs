@@ -1,0 +1,23 @@
+POST http://localhost:3333/tasks
+Content-Type: application/json
+
+{
+  "title": "Tarefa X",
+  "description": "Descrição X...",
+  "completed": false
+}
+
+###
+
+PUT http://localhost:3333/tasks/1
+Content-Type: application/json
+
+{
+  "title": "Tarefa X atualização",
+  "description": "Descrição X atualização...",
+  "completed": true
+}
+
+###
+
+DELETE http://localhost:3333/tasks/1
