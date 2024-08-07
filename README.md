@@ -4,7 +4,7 @@
   </a>
 </h1>
 
-# Roteiro
+## Roteiro
 
 <ul>
   <li>
@@ -95,19 +95,19 @@
   </li>
 </ul>
 
-# Desenvolvendo o Futuro da Tecnologia no Ceará
+## Desenvolvendo o Futuro da Tecnologia no Ceará
 
 1.000 vagas para impulsionar o conhecimento, tendo ênfase na Tecnologia e Inovação, com o objetivo de capacitar jovens, de forma totalmente gratuita, por meio de uma formação intensiva em Desenvolvimento Web.
 
-# O que é o Geração Tech
+## O que é o Geração Tech
 
 O Geração Tech é um projeto do **Instituto Euvaldo Lodi (IEL)** e o **Governo do Estado do Ceará** por meio da **Agência de Desenvolvimento do Estado do Ceará (ADECE)** para capacitação de jovens na área da tecnologia.
 
 A iniciativa tem o objetivo de oferecer Formação em Desenvolvimento Web, com ênfase no protagonismo dos jovens no mercado da tecnologia e inovação.
 
-# Como garantir uma das vagas
+## Como garantir uma das vagas
 
-## Requisitos
+### Requisitos
 
 - Ter entre 18 e 29 anos;
 - Ser residente do Ceará;
@@ -117,29 +117,29 @@ A iniciativa tem o objetivo de oferecer Formação em Desenvolvimento Web, com �
 - Ter acesso a computador ou notebook e acesso à internet (sendo o acesso obrigatório para candidatos da modalidade online);
 - Alunos de escola pública terão preferência na seleção.
 
-# Você poderá escolher entre duas modalidades para estudar: presencial ou online
+## Você poderá escolher entre duas modalidades para estudar: presencial ou online
 
 Ambas com 3 meses e 192 horas/aula
 
-## Presencial para residentes em Fortaleza - 400 vagas
+### Presencial para residentes em Fortaleza - 400 vagas
 
 - Locais: Aldeota (Av. Santos Dumont, 1510) ou Sul (Av. Washington Soares, 3663);
 - Turmas: Segunda a sexta (manhã ou tarde).
 
-## Aulas online para residentes do Interior do Ceará - 600 vagas
+### Aulas online para residentes do Interior do Ceará - 600 vagas
 
 - Aulas gravadas e disponibilizadas diariamente de segunda a quinta-feira;
 - Aulão semanal ao vivo às sextas pela manhã;
 - Fórum de discussão no Discord;
 - Acompanhamento personalizado.
 
-# Edital
+## Edital
 
 Fique atento(a) aos prazos e às etapas do processo seletivo, veja também o conteúdo programático do curso e o cronograma geral.
 
 - [Clique aqui e faça o download](https://geracaotech.iel-ce.org.br/edital-geracao-tech.pdf)
 
-# Processo seletivo
+## Processo seletivo
 
 A seleção compreenderá as seguintes etapas:
 
@@ -147,7 +147,7 @@ A seleção compreenderá as seguintes etapas:
 2. Fase 02: Análise de Documentação
 3. Fase 03: Matrícula e assinatura de contrato
 
-# Cronograma
+## Cronograma
 
 Fique atento às fases do processo seletivo e não perca os prazos.
 
@@ -171,7 +171,7 @@ Fique atento às fases do processo seletivo e não perca os prazos.
   - Aula inaugural: 10.06.2024
   - Início das aulas presenciais e online: 11.06.2024
 
-# O que você vai aprender?
+## O que você vai aprender?
 
 Você aprenderá a conduzir todos os estágios de **desenvolvimento** de sites e apps, desde a **interface até estruturas internas** ou bancos de dados.
 
@@ -247,21 +247,21 @@ Aprenda HTML5, CSS3, Javascript, React, banco de dados e outras.
 
 - [Confira a ementa do curso](https://geracaotech.iel-ce.org.br/ementa-geracao-tech.pdf)
 
-# Por que ser um Desenvolvedor Web?
+## Por que ser um Desenvolvedor Web?
 
-## Necessidade
+### Necessidade
 
 O desenvolvedor Web pode resolver todos os problemas de uma vez - não apenas as necessidades de desenvolvimento mais básicas; Os desenvolvedores web sabem como se comunicar com desenvolvedores front-end e back-end, ajudando a reduzir o ruído na comunicação.
 
-## Benefícios
+### Benefícios
 
 Uma grande vantagem de se tornar um desenvolvedor web é a rotina flexível. Além de esse profissional estar quase imune às crises, pois tem lugar cativo em qualquer empresa, ele poderá desenvolver seu trabalho mesmo de forma remota.
 
-## Mercado
+### Mercado
 
 O mercado de trabalho dos desenvolvedores web está em alta e tem potencial para crescer ainda mais. Cada vez mais empresas estão buscando programadores, pois o mundo está dependendo deles como analistas e desenvolvedores de sistemas, além de proporcionar soluções rápidas para problemas do dia a dia.
 
-# Realização
+## Realização
 
 <table border="1">
   <tr align="center">
